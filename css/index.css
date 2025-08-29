@@ -1,0 +1,126 @@
+* {
+    margin: 0%;
+    user-select: none;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;      
+}
+
+.container img {
+    max-width: 80%;
+    opacity: 40%;
+    height: auto;
+}
+
+
+.upBooks {
+    position: absolute;
+}
+
+.upBooks img {
+    max-width: 100%;
+    border-bottom-right-radius: 6cm;
+    height: auto;
+}
+
+.upBooks h1 {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+.upBooks h1::first-letter {
+    color: gold;
+}
+
+.message {
+    /* background-color: aqua; */
+    position: relative;
+    top: 12.8rem;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.message p {
+    text-align:center;
+}
+
+.LearnAt{
+    margin-top: 8px;
+    display: flex;
+}
+
+.btn{
+    margin-top: -20px;
+    width: 10rem;
+}
+
+.provideList {
+    margin-top: 0rem;
+    max-width: 100%;
+    padding: 1rem;
+}
+
+/* Cards container */
+.listContainer {
+    display: flex;
+    flex-wrap: wrap;       
+    gap: 10px;             
+    justify-content: center; 
+}
+button{
+    background: linear-gradient(rgb(43, 183, 43), rgba(218, 188, 18, 0.785));
+    font-weight: bolder;
+        transition: ease 2s;
+}
+button:hover{
+    background: linear-gradient(rgba(218, 188, 18, 0.785),rgb(43, 183, 43));
+    transition: ease 2s;
+}
+/* Individual card */
+.cards {
+    /* background:linear-gradient(rgb(126, 193, 64), rgb(14,152,67)); */
+    background-color:aliceblue;
+    border-color: white solid;
+    box-shadow: 0cm 0cm 0.5cm  rgb(93, 181, 68);
+    height: 8rem;
+    border-radius: 10px;
+    width: 130px;
+    display: flex;            
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CardIcon {
+    font-size: 50px;
+}
+
+
+/* mediam mobile */
+@media (min-width :374px) {
+    .upBooks {
+        width: 100%;
+    }
+
+    .upBooks img {
+        border-bottom-right-radius: 6cm;
+        height: 12rem;
+    }
+
+    .message {
+        top: 12.3rem;
+    }
+}
+

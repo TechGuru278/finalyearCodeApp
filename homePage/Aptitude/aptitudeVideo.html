@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="../../GeneralImages/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./aptitude.css">
+    <link rel="stylesheet" href="../../css/backgroundImage.css">
+    <title>Aptitude</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <center><img src="../../GeneralImages/logo.png" width="100%" height="100%"></center>
+    </div>
+    <div class="videoAred" style="height: 14rem; width: 100%;">
+    </div>
+    <div class="indexList sendPageListCss">
+        <ul>
+            <li data-video="tnc9ojITRg4?si=N1m4ehRBwWQ3dHSw">Fractions and Decimals </li>
+            <li data-video="ZuMJFleXmiw?si=8plZRChAm8tc4EUK">Simplification </li>
+            <li data-video="jAbpPTpz2bQ?si=HnBwOFcBPf0_uoIH">Surds and Indices </li>
+            <li data-video="ETiRE7N7pEI?si=_x8TDYmjKRO0-v09">Permutation and Combination </li>
+            <li data-video="ximxxERGSUc?si=0obSr2SnXU9DNkDr">Probability </li>
+            <li data-video="OKSJDDAyqP0?si=qsdKHIL7WR2NJ71u">Mixture and Alligation </li>
+            <li data-video="jfoJBivWlnQ?si=UlPP12IPBMa5gIEJ">Ratio and Proportion </li>
+            <li data-video="xyyejJYeILM?si=byaoWK_u0O139f3E">HCF and LCM </li>
+            <li data-video="8OOBo5C7dsc?si=xNFve-lA_zCyzacW">Work and Wages </li>
+            <li data-video="PbUZnzncmR4?si=pg8W_WJ5ROGYSpVz">Compound Interest </li>
+            <li data-video="jvRq87ZWzIk?si=kOL6vR93E4ktCiYk">Simple Interest </li>
+            <li data-video="T2odvmxqi1I?si=118zTZbAhDUDj6Z9">Profit and Loss </li>
+            <li data-video="FW97hRrHcSw?si=3-OIi9vK8qtbRSqK">Discount </li>
+            <li data-video="jzNxXm5twx4?si=8lRWta-14MWmiCAz">Speed, Distance & Time </li>
+            <li data-video="RWdNhJWwzSs?si=PuB28rqIpoeV2f65">Percentage </li>
+            <li data-video="mBtBD1N7ywQ?si=MEKtJXMqkstGOY6t">Pipes and Cisterns </li>
+            <li data-video="KE7tQf9spPg?si=ftkcPu-N1-gW_RpE">Time and Work </li>
+            <li data-video="-EdJ4kAW-j4?si=kn2tViJxI6m54pYN">Boats and Streams </li>
+            <li data-video="78b4Jn4rw44?si=xZzsMj4LUIDP-Rgo">Problems on Trains </li>
+            <li data-video="vsBpWgNYjtQ?si=c0v3_e-0KaBWXrqM">Problems on Numbers </li>
+            <li data-video="tJHl73PBnwY?si=SclhoH3BuaZyOkkz">Problems on Ages </li>
+            <li data-video="hn9TKnr8L_8?si=JSdwVM66s-GKx6e8">Partnership </li>
+            <li data-video="_HyhwS8P9KY?si=5xsbFVq3_ZWvHcJZ">Square & Cube Roots </li>
+            <li data-video="rhSxQ4ieAYc?si=WvgOK8xPjPQdshRA">Averages </li>
+            <li data-video="pYL2843EEuQ?si=Lxevuam6TMPyh0Z3">Chain Rule </li>
+            <li data-video="x3FZCLVNzaw?si=Xf360VMgk_01bIi9">How to prepare for Placement Aptitude Test?</li>
+            <li data-video="xwqUyOT-cmU?si=8Bvp78jGTci1MbWa">Area & Perimeter </li>
+            <li data-video="2rp_-h6PnFo?si=IvzXClU2R9TX5cO7">Volume & Surface Area</li>
+            <li data-video="uRA-QqVI3ec?si=x0-x6Iwun3ub34CS">Height and Distance</li>
+            <li data-video="w-7mbazOx6o?si=QOEMzgV3q_OMAV96">Logarithms</li>
+            <li data-video="G-gqX4Oo9PA?si=wl9LV5oAvGzps3rg">Arithmetic Progression</li>
+            <li data-video="rdC4Blp8qmk?si=iC7Rg9BZyOySw1CH">Geometric Progression</li>
+            <li data-video="fA8cQW-nmIw?si=5G-yVIttaqUPK-hN">Pie Chart</li>
+            <li data-video="LEM2xQEVYGo?si=0Zn69YriA-mPYuKh">Bar Graph </li>
+            <li data-video="wLTYn8MVIrA?si=484nbBYVyLz5JCxa">Line Graph & Table Data</li>
+            <li data-video="TV9rQm15sWo?si=_pIvVmtbboM5AmdH">Algebra</li>
+            <li data-video="6Jrb4wEloCQ?si=6a30FDxUdiBWUtqj">Statistics</li>
+        </ul>
+    </div>
+    <script>
+        let videoArea = document.querySelector(".videoAred");
+
+        let firstVideo = document.querySelector(".indexList li").getAttribute("data-video");
+        videoArea.innerHTML = `
+            <iframe width="100%" height="250" 
+                src="https://www.youtube.com/embed/${firstVideo}" 
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        `;
+
+
+        // Load video on click
+        document.querySelectorAll(".indexList li").forEach(item => {
+            item.addEventListener("click", () => {
+                let videoId = item.getAttribute("data-video");
+                videoArea.innerHTML = `
+                    <iframe width="100%" height="250" 
+                        src="https://www.youtube.com/embed/${videoId}" 
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                `;
+            });
+        });
+
+
+        window.onpopstate = function () {
+            window.location.href = "./aptitude.html"; // 🔹 Change to your home page path
+        };
+
+        // Push a dummy state so back button works
+        window.history.pushState({}, "");
+    </script>
+    </script>
+</body>
+
+</html>
