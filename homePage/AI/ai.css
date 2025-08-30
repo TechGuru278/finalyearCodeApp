@@ -68,7 +68,7 @@ ul{
     left: -50px;
 }
 .aiResponce li{
-    margin-top: 10px;
+    margin-top: 30px;
     background-color: greenyellow;
     max-width: 90%;
     float: left;
@@ -112,4 +112,5 @@ button{
     box-shadow: 0cm 0cm 3cm green;
     background-color: green;
     border-color: aqua;
+
 }
