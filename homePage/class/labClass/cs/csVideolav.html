@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="../../../../GeneralImages/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../../../Aptitude/aptitude.css">
+    <link rel="stylesheet" href="../../../../css/backgroundImage.css">
+    <title>CS Lab</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <center><img src="../../../../GeneralImages/logo.png" width="100%" height="100%"></center>
+    </div>
+    <div class="videoAred" style="height: 14rem; width: 100%;">
+    </div>
+    <div class="indexList sendPageListCss">
+        <ul>
+            <li data-video="2qp0VhHjXLA?si=b29YduVu0ZlQF7-F">Prims algorithm</li>
+            <li data-video="YrtYcavTrNU?si=4R-g0LxM46sWz9uA">Floyd’s algorithm</li>
+            <li data-video="_VZwpitsxj4?si=aM-lnxovmUn74dpU">PCA</li>
+            <li data-video="DAURnFMSkQU?si=2pRU-vzpDXzo67U5">Correlation matrix</li>
+            <li data-video="E1mAxcP-wRE?si=k6fPwuuIc95Y_W7v">Machine learning lab</li>
+            <li data-video="lDrDqoHYCJM?si=NrnGYrAY82bRXHQJ">Warshall’s algorithm to find transitive closure</li>
+            <li data-video="o9hcMZVvrSc?si=-CxtCZSUQlqNZd_X">Conversion of Infix to postfix expression</li>
+            <li data-video="TqkqZCSrnPU?si=Q3JetV7pFC5DwRRl">Data structures algorithm</li>
+            <li data-video="C3MD2nFNn0M?si=v7Iox5TCMAVyyLi3">Merge sort</li>
+            <li data-video="0qVFTNcbuSM?si=F8hC-PISpcybiBQC">Selection sort</li>
+            <li data-video="quFGHUJNpUs?si=JxpwsP_aFjY2mDUV">Quick sort</li>
+            <a href="https://www.youtube.com/@ATME_CSE/videos">
+                <li>For more....</li>
+            </a>
+        </ul>
+    </div>
+    <script>
+        let videoArea = document.querySelector(".videoAred");
+
+        let firstVideo = document.querySelector(".indexList li").getAttribute("data-video");
+        videoArea.innerHTML = `
+            <iframe width="100%" height="250" 
+                src="https://www.youtube.com/embed/${firstVideo}" 
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        `;
+        // Load video on click
+        document.querySelectorAll(".indexList li").forEach(item => {
+            item.addEventListener("click", () => {
+                let videoId = item.getAttribute("data-video");
+                videoArea.innerHTML = `
+                    <iframe width="100%" height="250" 
+                        src="https://www.youtube.com/embed/${videoId}" 
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                `;
+            });
+        });
+
+
+        window.onpopstate = function () {
+            window.location.href = "./csLab.html"; // 🔹 Change to your home page path
+        };
+
+        // Push a dummy state so back button works
+        window.history.pushState({}, "");
+    </script>
+    </script>
+</body>
+
+</html>

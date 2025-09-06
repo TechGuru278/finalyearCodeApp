@@ -1,0 +1,502 @@
+[
+    {
+        "question": "Which of the following is the correct way to declare a variable in Java?",
+        "options": [
+            "int num = 10;",
+            "num int = 10;",
+            "int = 10 num;",
+            "integer num = 10;"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which method is the entry point of a Java program?",
+        "options": [
+            "main()",
+            "start()",
+            "run()",
+            "execute()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which keyword is used to inherit a class in Java?",
+        "options": [
+            "implement",
+            "extends",
+            "inherits",
+            "super"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of these is NOT a Java primitive type?",
+        "options": [
+            "int",
+            "boolean",
+            "String",
+            "double"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the size of an int in Java?",
+        "options": [
+            "8 bits",
+            "16 bits",
+            "32 bits",
+            "64 bits"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which keyword is used to create an object in Java?",
+        "options": [
+            "create",
+            "new",
+            "construct",
+            "make"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of these access modifiers makes a member visible only within the same package?",
+        "options": [
+            "public",
+            "protected",
+            "default (no modifier)",
+            "private"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which operator is used for string concatenation in Java?",
+        "options": [
+            "+",
+            "&",
+            ".",
+            "concat"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which keyword is used to prevent inheritance of a class?",
+        "options": [
+            "static",
+            "final",
+            "const",
+            "protected"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of the following is true about Java?",
+        "options": [
+            "Java is platform dependent",
+            "Java supports multiple inheritance using classes",
+            "Java uses a Just-In-Time compiler",
+            "Java does not support object-oriented programming"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the default value of a boolean variable in Java?",
+        "options": [
+            "true",
+            "false",
+            "0",
+            "null"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is used to get the length of a string in Java?",
+        "options": [
+            "length",
+            "length()",
+            "size()",
+            "getLength()"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which keyword is used to define an interface in Java?",
+        "options": [
+            "class",
+            "interface",
+            "implements",
+            "abstract"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which exception is thrown when dividing by zero in Java?",
+        "options": [
+            "NullPointerException",
+            "ArithmeticException",
+            "NumberFormatException",
+            "IllegalArgumentException"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which loop in Java is guaranteed to execute at least once?",
+        "options": [
+            "for",
+            "while",
+            "do-while",
+            "foreach"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which keyword is used to handle exceptions in Java?",
+        "options": [
+            "try",
+            "catch",
+            "throw",
+            "All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which of the following is NOT a Java access modifier?",
+        "options": [
+            "public",
+            "protected",
+            "internal",
+            "private"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which package contains the Scanner class?",
+        "options": [
+            "java.util",
+            "java.io",
+            "java.lang",
+            "java.net"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which method is used to start a thread in Java?",
+        "options": [
+            "start()",
+            "run()",
+            "execute()",
+            "init()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What does JVM stand for?",
+        "options": [
+            "Java Variable Machine",
+            "Java Virtual Method",
+            "Java Virtual Machine",
+            "Java Verified Machine"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which keyword is used to inherit an interface in Java?",
+        "options": [
+            "extends",
+            "implements",
+            "inherits",
+            "super"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is called automatically when an object is created?",
+        "options": [
+            "finalize()",
+            "init()",
+            "constructor",
+            "start()"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which data structure does HashMap use internally?",
+        "options": [
+            "Array",
+            "LinkedList",
+            "Hash table",
+            "Binary tree"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which keyword is used to refer to the current object?",
+        "options": [
+            "this",
+            "self",
+            "super",
+            "current"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of the following is NOT a feature of Java?",
+        "options": [
+            "Platform-independent",
+            "Object-oriented",
+            "Supports pointers",
+            "Automatic memory management"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the parent class of all classes in Java?",
+        "options": [
+            "Object",
+            "Class",
+            "Super",
+            "Base"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which statement is used to exit a loop prematurely?",
+        "options": [
+            "return",
+            "break",
+            "continue",
+            "exit"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of these is a wrapper class in Java?",
+        "options": [
+            "int",
+            "double",
+            "Integer",
+            "float"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which keyword is used to define a constant in Java?",
+        "options": [
+            "constant",
+            "static",
+            "final",
+            "const"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which collection does not allow duplicate elements?",
+        "options": [
+            "List",
+            "Set",
+            "Queue",
+            "Map"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which operator is used for equality comparison in Java?",
+        "options": [
+            "=",
+            "==",
+            "equals",
+            "equals()"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is used to compare two strings in Java?",
+        "options": [
+            "compare()",
+            "equals()",
+            "==",
+            "compareTo()"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which keyword is used to create a subclass in Java?",
+        "options": [
+            "extends",
+            "implements",
+            "inherits",
+            "super"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which method is called before an object is garbage collected?",
+        "options": [
+            "finalize()",
+            "delete()",
+            "destroy()",
+            "close()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of these is NOT a loop in Java?",
+        "options": [
+            "for",
+            "foreach",
+            "repeat-until",
+            "do-while"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which collection class maintains insertion order?",
+        "options": [
+            "HashSet",
+            "TreeSet",
+            "LinkedHashSet",
+            "PriorityQueue"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which of these keywords is used for inheritance in Java?",
+        "options": [
+            "super",
+            "extends",
+            "this",
+            "final"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which exception is thrown when accessing an invalid index in an array?",
+        "options": [
+            "NullPointerException",
+            "ArrayIndexOutOfBoundsException",
+            "IllegalArgumentException",
+            "IndexException"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is used to convert a string to an integer?",
+        "options": [
+            "Integer.parseInt()",
+            "toInt()",
+            "convertToInt()",
+            "String.toInteger()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of these is NOT a valid keyword in Java?",
+        "options": [
+            "volatile",
+            "synchronized",
+            "goto",
+            "include"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which exception is the parent of all exceptions in Java?",
+        "options": [
+            "Throwable",
+            "Exception",
+            "RuntimeException",
+            "Error"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which method is used to start applets in Java?",
+        "options": [
+            "run()",
+            "main()",
+            "init()",
+            "start()"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which keyword is used to declare a class that cannot be instantiated?",
+        "options": [
+            "static",
+            "abstract",
+            "final",
+            "sealed"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which keyword is used to call the parent class constructor?",
+        "options": [
+            "this",
+            "super",
+            "parent",
+            "base"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which collection in Java maps keys to values?",
+        "options": [
+            "Set",
+            "List",
+            "Map",
+            "Queue"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which operator is used to allocate memory for objects?",
+        "options": [
+            "alloc",
+            "malloc",
+            "new",
+            "create"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which exception is unchecked in Java?",
+        "options": [
+            "IOException",
+            "SQLException",
+            "RuntimeException",
+            "ClassNotFoundException"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which keyword is used for multiple inheritance in Java?",
+        "options": [
+            "extends",
+            "super",
+            "interface",
+            "implements"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which operator is used for logical AND in Java?",
+        "options": [
+            "&",
+            "&&",
+            "|",
+            "||"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is used to terminate a thread?",
+        "options": [
+            "stop()",
+            "exit()",
+            "terminate()",
+            "kill()"
+        ],
+        "correct": 0
+    }
+]

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="../../../../GeneralImages/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../../../Aptitude/aptitude.css">
+    <link rel="stylesheet" href="../../../../css/backgroundImage.css">
+    <title>Mechanical Lab</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <center><img src="../../../../GeneralImages/logo.png" width="100%" height="100%"></center>
+    </div>
+    <div class="videoAred" style="height: 14rem; width: 100%;">
+    </div>
+    <div class="indexList sendPageListCss">
+        <ul>
+            <li data-video="NCnnOCNg9dQ?si=hyQBzz56txuhLjur">Taper Turning operation</li>
+            <li data-video="Sr-X3Q7hPLc?si=gG8tpQU_0Bf9f43n">CIM Lab Turning Program 2</li>
+            <li data-video="TU5QkW4TXFA?si=Zu178OrjRHXjeQQ0">CIM Lab Turning Program 1</li>
+            <li data-video="dAWFVf5TntI?si=mhBpGNmPm2r40BXo">Lathe Machines Operations</li>
+            <li data-video="sbtRXE2-iNI?si=tGCX1urT7mEcBE9N">Thermal Conductivity of a metal rod (New)</li>
+            <li data-video="qYIY-cUezh4?si=UmZxG4R5Jf39gJwC">Composite wall (New)</li>
+            <li data-video="QIrQro_3-Hs?si=GoiixGLd7WDe_bPc">Stefan-Boltzman experiment</li>
+            <li data-video="iDR4uvFV6K0?si=GuhjCQHEbcC2O-Em">Tools used in Fitting Shop</li>
+            <li data-video="9uQ0OeuPzKI?si=kXrKUpmX1SiaYvjW">Experiment on Curved beam</li>
+            <li data-video="OFEpZHVvE6U?si=tjexE0KaiaqF3cRB">Experiment on Angle of Measurement using Sine Bar</li>
+            <a href="https://www.youtube.com/@atmemechanical1987/videos">
+                <li>For more....</li>
+            </a>
+        </ul>
+
+    </div>
+    <script>
+        let videoArea = document.querySelector(".videoAred");
+
+        let firstVideo = document.querySelector(".indexList li").getAttribute("data-video");
+        videoArea.innerHTML = `
+            <iframe width="100%" height="250" 
+                src="https://www.youtube.com/embed/${firstVideo}" 
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        `;
+        // Load video on click
+        document.querySelectorAll(".indexList li").forEach(item => {
+            item.addEventListener("click", () => {
+                let videoId = item.getAttribute("data-video");
+                videoArea.innerHTML = `
+                    <iframe width="100%" height="250" 
+                        src="https://www.youtube.com/embed/${videoId}" 
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                `;
+            });
+        });
+
+
+        window.onpopstate = function () {
+            window.location.href = "./mechLab.html"; // 🔹 Change to your home page path
+        };
+
+        // Push a dummy state so back button works
+        window.history.pushState({}, "");
+    </script>
+    </script>
+</body>
+
+</html>

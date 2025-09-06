@@ -1,0 +1,492 @@
+[
+    {
+        "question": "Which law relates pressure, velocity, and elevation in a fluid flow?",
+        "options": [
+            "Pascal’s Law",
+            "Bernoulli’s Equation",
+            "Newton’s Law",
+            "Archimedes’ Principle"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which property of a fluid resists shear deformation?",
+        "options": [
+            "Density",
+            "Viscosity",
+            "Surface Tension",
+            "Pressure"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The ratio of inertial forces to viscous forces is called?",
+        "options": [
+            "Froude Number",
+            "Reynolds Number",
+            "Mach Number",
+            "Euler Number"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which principle explains buoyancy?",
+        "options": [
+            "Bernoulli’s Principle",
+            "Archimedes’ Principle",
+            "Pascal’s Law",
+            "Continuity Equation"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the SI unit of dynamic viscosity?",
+        "options": [
+            "Pa·s",
+            "N/m²",
+            "kg/m³",
+            "m²/s"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The continuity equation is based on which principle?",
+        "options": [
+            "Conservation of Energy",
+            "Conservation of Mass",
+            "Conservation of Momentum",
+            "Newton’s Law"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which fluid property is measured using a manometer?",
+        "options": [
+            "Velocity",
+            "Pressure",
+            "Viscosity",
+            "Density"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which type of flow has no viscosity?",
+        "options": [
+            "Real Flow",
+            "Ideal Flow",
+            "Turbulent Flow",
+            "Laminar Flow"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the condition for laminar flow in a pipe (Reynolds number)?",
+        "options": [
+            "Re < 2000",
+            "2000 < Re < 4000",
+            "Re > 4000",
+            "Re < 1000"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which equation relates discharge with velocity and area?",
+        "options": [
+            "Q = V × A",
+            "Q = ρ × g × h",
+            "Q = m × v",
+            "Q = F × d"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which law states that pressure applied to a fluid is transmitted equally in all directions?",
+        "options": [
+            "Bernoulli’s Law",
+            "Pascal’s Law",
+            "Archimedes’ Law",
+            "Newton’s Law"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which device is used to measure fluid velocity?",
+        "options": [
+            "Venturimeter",
+            "Manometer",
+            "Piezo-meter",
+            "Hydrometer"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is cavitation in fluid machinery?",
+        "options": [
+            "Air bubbles forming due to low pressure",
+            "Increase in viscosity",
+            "Increase in density",
+            "Excessive turbulence"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which number compares inertia force to gravity force?",
+        "options": [
+            "Reynolds Number",
+            "Froude Number",
+            "Mach Number",
+            "Weber Number"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which equation gives head loss due to friction in pipes?",
+        "options": [
+            "Darcy-Weisbach Equation",
+            "Bernoulli’s Equation",
+            "Continuity Equation",
+            "Archimedes’ Principle"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Surface tension is due to?",
+        "options": [
+            "Viscosity",
+            "Cohesion",
+            "Adhesion",
+            "Density"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which type of flow has layers moving parallel without mixing?",
+        "options": [
+            "Turbulent Flow",
+            "Laminar Flow",
+            "Compressible Flow",
+            "Rotational Flow"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the unit of kinematic viscosity?",
+        "options": [
+            "m²/s",
+            "Pa·s",
+            "N/m²",
+            "kg/m³"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "In a submerged body, the buoyant force is equal to?",
+        "options": [
+            "Weight of body",
+            "Mass of displaced fluid",
+            "Weight of displaced fluid",
+            "Density of fluid"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which principle is used in hydraulic machines?",
+        "options": [
+            "Archimedes’ Principle",
+            "Pascal’s Law",
+            "Bernoulli’s Principle",
+            "Newton’s Law"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which dimensionless number is used in compressible flow?",
+        "options": [
+            "Mach Number",
+            "Reynolds Number",
+            "Froude Number",
+            "Euler Number"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which device is used to measure pressure difference?",
+        "options": [
+            "Pitot Tube",
+            "Venturimeter",
+            "Manometer",
+            "Orifice Meter"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which type of pressure is measured by a barometer?",
+        "options": [
+            "Absolute Pressure",
+            "Gauge Pressure",
+            "Differential Pressure",
+            "Dynamic Pressure"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the Mach number for subsonic flow?",
+        "options": [
+            "M < 1",
+            "M = 1",
+            "M > 1",
+            "M = 0"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What happens to viscosity of liquids with rise in temperature?",
+        "options": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Becomes zero"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which property of fluid determines compressibility?",
+        "options": [
+            "Bulk Modulus",
+            "Viscosity",
+            "Surface Tension",
+            "Density"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The head loss due to sudden enlargement in pipe is proportional to?",
+        "options": [
+            "Velocity",
+            "Velocity²",
+            "Pressure",
+            "Flow rate"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which device measures velocity at a point in fluid?",
+        "options": [
+            "Pitot Tube",
+            "Manometer",
+            "Venturimeter",
+            "Orifice Meter"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which type of energy does pressure head represent?",
+        "options": [
+            "Potential Energy",
+            "Kinetic Energy",
+            "Flow Energy",
+            "Internal Energy"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which law governs fluid statics?",
+        "options": [
+            "Archimedes’ Law",
+            "Pascal’s Law",
+            "Darcy’s Law",
+            "Newton’s Law"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which equation is used for open channel flow?",
+        "options": [
+            "Manning’s Equation",
+            "Darcy-Weisbach Equation",
+            "Bernoulli’s Equation",
+            "Continuity Equation"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which term represents pressure head in meters?",
+        "options": [
+            "p / ρg",
+            "V² / 2g",
+            "z",
+            "ρgh"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "For laminar flow in a circular pipe, velocity profile is?",
+        "options": [
+            "Parabolic",
+            "Linear",
+            "Uniform",
+            "Exponential"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The unit of surface tension is?",
+        "options": [
+            "N/m",
+            "Pa·s",
+            "kg/m³",
+            "m²/s"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Flow through nozzle increases?",
+        "options": [
+            "Velocity",
+            "Pressure",
+            "Temperature",
+            "Viscosity"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The piezometer measures?",
+        "options": [
+            "Static Pressure",
+            "Dynamic Pressure",
+            "Velocity Head",
+            "Total Head"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The Hagen–Poiseuille equation is valid for?",
+        "options": [
+            "Turbulent Flow",
+            "Compressible Flow",
+            "Laminar Flow",
+            "Rotational Flow"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which term represents kinetic energy head?",
+        "options": [
+            "V² / 2g",
+            "p / ρg",
+            "z",
+            "ρgh"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which number represents surface tension effect?",
+        "options": [
+            "Reynolds Number",
+            "Weber Number",
+            "Mach Number",
+            "Froude Number"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which fluid property is responsible for capillarity?",
+        "options": [
+            "Viscosity",
+            "Surface Tension",
+            "Density",
+            "Pressure"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In turbulent flow, velocity distribution is?",
+        "options": [
+            "Parabolic",
+            "Uniform",
+            "Linear",
+            "Irregular"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which equation is Energy Equation in fluid flow?",
+        "options": [
+            "Darcy-Weisbach Equation",
+            "Bernoulli’s Equation",
+            "Manning’s Equation",
+            "Reynolds Equation"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which dimensionless number indicates compressibility effects?",
+        "options": [
+            "Mach Number",
+            "Reynolds Number",
+            "Weber Number",
+            "Froude Number"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which device measures specific gravity of liquids?",
+        "options": [
+            "Manometer",
+            "Hydrometer",
+            "Venturimeter",
+            "Pitot Tube"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In boundary layer theory, point where velocity becomes 99% of free stream is?",
+        "options": [
+            "Stagnation Point",
+            "Boundary Layer Thickness",
+            "Laminar Sub-layer",
+            "Wake Region"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which force dominates in creeping flow?",
+        "options": [
+            "Inertial Force",
+            "Viscous Force",
+            "Gravity Force",
+            "Pressure Force"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which device is based on Bernoulli’s principle?",
+        "options": [
+            "Venturimeter",
+            "Hydrometer",
+            "Piezometer",
+            "Barometer"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which type of energy loss occurs due to bends and fittings in pipes?",
+        "options": [
+            "Frictional Loss",
+            "Minor Loss",
+            "Major Loss",
+            "Cavitation Loss"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the dimension of kinematic viscosity?",
+        "options": [
+            "L²/T",
+            "M/LT²",
+            "ML/T²",
+            "M/L³"
+        ],
+        "correct": 0
+    }
+]

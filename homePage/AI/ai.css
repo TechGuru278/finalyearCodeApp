@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* overflow-x: hidden; */
+}
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;      
+}
+
+.container img {
+    max-width: 80%;
+    opacity: 40%;
+    height: auto;
+}
+.headder{
+    padding-top: 16px;
+    height: 4rem;
+    box-shadow: 0cm 0cm 3cm greenyellow;
+    padding-bottom: 10px;
+    background:linear-gradient(rgb(74, 220, 74),rgb(124, 222, 12)) ;
+    color: aliceblue;
+    text-shadow: 5px 0px 3px greenyellow;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.headder h1{
+    position: relative;
+    top: 1rem;
+}
+.boxArea{
+    margin-top: 10px;
+    height: 75vh;
+    list-style: none;
+    overflow-y: auto;
+    /* background-color: rgb(0,136, 255); */
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.userIpBox li{
+    background-color: green;
+    max-width: 40%;
+    float: right;
+    padding-left: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.allert{
+    position: absolute;
+    left: 85px;
+    display: none;
+    bottom: 10px;
+}
+.allert p{
+    left: -50px;
+}
+.aiResponce li{
+    margin-top: 30px;
+    background-color: greenyellow;
+    max-width: 90%;
+    float: left;
+    padding-left: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.userInputBox{
+    /* background-color: blueviolet; */
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: space-evenly;
+    padding-bottom: 7px;
+}
+.inputBox{
+    /* background-color: black; */
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+input{
+    height: 2rem;
+    width: 100%;
+    box-shadow: 0cm 0cm 3cm greenyellow;
+    padding-left: 10px;
+    background-color: greenyellow;
+    border-radius: 10px;
+}
+button{
+    width: 80px;
+    border-radius: 30px;
+    height: 2rem;
+    color: antiquewhite;
+    box-shadow: 0cm 0cm 3cm green;
+    background-color: green;
+    border-color: aqua;
+}

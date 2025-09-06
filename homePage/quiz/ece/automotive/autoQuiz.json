@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is the function of a carburetor in a petrol engine?",
+        "options": [
+            "To supply lubricating oil",
+            "To mix air and fuel in the correct ratio",
+            "To ignite the fuel-air mixture",
+            "To cool the engine"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which cycle is used in diesel engines?",
+        "options": [
+            "Otto Cycle",
+            "Diesel Cycle",
+            "Brayton Cycle",
+            "Rankine Cycle"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does ABS stand for in automotive systems?",
+        "options": [
+            "Automatic Brake System",
+            "Anti-Brake Slip",
+            "Anti-lock Braking System",
+            "Automatic Balancing System"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which component transmits power from the engine to the gearbox?",
+        "options": [
+            "Flywheel",
+            "Clutch",
+            "Differential",
+            "Driveshaft"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which type of engine is commonly used in modern cars?",
+        "options": [
+            "Two-stroke petrol engine",
+            "Four-stroke petrol or diesel engine",
+            "Steam engine",
+            "Stirling engine"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does ECU stand for in modern vehicles?",
+        "options": [
+            "Engine Control Unit",
+            "Electronic Cooling Unit",
+            "Energy Control Unit",
+            "Engine Calculation Utility"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the function of a turbocharger?",
+        "options": [
+            "Reduces engine noise",
+            "Compresses intake air to increase power",
+            "Improves fuel filtration",
+            "Controls ignition timing"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the air-fuel ratio for complete combustion in petrol engines?",
+        "options": [
+            "10:1",
+            "14.7:1",
+            "20:1",
+            "8:1"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does BHP stand for in engines?",
+        "options": [
+            "Brake Horse Power",
+            "Base Heat Power",
+            "Boosted Hydraulic Pressure",
+            "Basic Horse Power"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which sensor measures oxygen content in exhaust gases?",
+        "options": [
+            "Knock sensor",
+            "MAP sensor",
+            "Oxygen (Lambda) sensor",
+            "Temperature sensor"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the function of a catalytic converter?",
+        "options": [
+            "Reduce engine noise",
+            "Reduce harmful emissions",
+            "Increase fuel economy",
+            "Increase engine temperature"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does NVH stand for in automotive engineering?",
+        "options": [
+            "Noise, Vibration, and Harshness",
+            "New Vehicle Handling",
+            "Normal Viscous Heat",
+            "Neutral Valve Head"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the purpose of a differential in a vehicle?",
+        "options": [
+            "To balance air-fuel mixture",
+            "To allow wheels to rotate at different speeds",
+            "To control ignition",
+            "To maintain tire pressure"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which braking system uses hydraulic pressure?",
+        "options": [
+            "Mechanical brakes",
+            "Air brakes",
+            "Hydraulic brakes",
+            "Vacuum brakes"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What does FWD stand for?",
+        "options": [
+            "Fast Wheel Drive",
+            "Front Wheel Drive",
+            "Fuel Wheel Design",
+            "Forward Wheel Differential"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which type of engine is more fuel-efficient?",
+        "options": [
+            "Diesel engine",
+            "Petrol engine",
+            "Steam engine",
+            "Rotary engine"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the main function of engine oil?",
+        "options": [
+            "Cooling only",
+            "Lubrication and cooling",
+            "Fuel mixing",
+            "Power transmission"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which component stores electrical energy in a vehicle?",
+        "options": [
+            "Alternator",
+            "Starter motor",
+            "Battery",
+            "ECU"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the main purpose of a radiator?",
+        "options": [
+            "Filter fuel",
+            "Cool the engine coolant",
+            "Increase fuel economy",
+            "Lubricate engine parts"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which material is commonly used for brake pads?",
+        "options": [
+            "Cast iron",
+            "Asbestos-based or ceramic composites",
+            "Aluminum",
+            "Copper"
+        ],
+        "correct": 1
+    }
+]

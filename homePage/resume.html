@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATS-Friendly Resume Builder</title>
+    <link rel="shortcut icon" href="../GeneralImages/logo.png" type="image/x-icon">
+    <style>
+        :root {
+            --primary-color: #4CAF50;
+            --primary-dark: #388E3C;
+            --primary-light: #C8E6C9;
+            --text-color: #333;
+            --light-bg: #f9f9f9;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            min-height: 100vh;
+        }
+
+        .input-section {
+            flex: 1;
+            min-width: 300px;
+            background-color: var(--primary-color);
+            padding: 30px;
+            color: white;
+            animation: fadeIn 0.8s ease-in-out;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .resume-section {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1,
+        h2,
+        h3 {
+            margin-top: 0;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: black;
+            border-bottom: 2px solid black;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            animation: slideUp 0.5s ease-out;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.9);
+            transition: all 0.3s;
+        }
+
+        input:focus,
+        textarea:focus,
+        select:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px var(--primary-light);
+            background-color: white;
+        }
+
+        button {
+            background-color: white;
+            color: var(--primary-dark);
+            border: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: var(--primary-light);
+            transform: translateY(-2px);
+        }
+
+        .resume-preview {
+            width: 100%;
+            max-width: 800px;
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .resume-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .resume-header h1 {
+            color: var(--text-color);
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .experience-item,
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .job-title,
+        .degree {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .company,
+        .school {
+            font-style: italic;
+        }
+
+        .date {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: var(--light-bg);
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+
+        .download-btn {
+            background-color: var(--primary-dark);
+            color: white;
+            padding: 12px 25px;
+            font-size: 1rem;
+        }
+
+        .download-btn:hover {
+            background-color: var(--primary-color);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .add-btn {
+            background-color: var(--primary-dark);
+            color: white;
+            padding: 8px 15px;
+            font-size: 0.9rem;
+            margin-right: 10px;
+        }
+
+        .remove-btn {
+            background-color: #f44336;
+            color: white;
+        }
+
+        .dynamic-section {
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+
+        @media print {
+
+            .input-section,
+            .download-btn {
+                display: none;
+            }
+
+            .resume-section {
+                padding: 0;
+            }
+
+            .resume-preview {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <section class="input-section">
+            <h1>Resume Builder</h1>
+            <p>Fill in your details to create an ATS-friendly resume</p>
+
+            <form id="resumeForm">
+                <h2>Personal Information</h2>
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <input type="text" id="address">
+                </div>
+
+                <div class="form-group">
+                    <label for="linkedin">LinkedIn Profile</label>
+                    <input type="url" id="linkedin">
+                </div>
+
+                <div class="form-group">
+                    <label for="summary">Professional Summary</label>
+                    <textarea id="summary" rows="4"></textarea>
+                </div>
+
+                <h2>Work Experience</h2>
+                <div id="experienceContainer">
+                    <div class="dynamic-section">
+                        <div class="form-group">
+                            <label for="jobTitle1">Job Title</label>
+                            <input type="text" id="jobTitle1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company1">Company</label>
+                            <input type="text" id="company1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="jobStartDate1">Start Date</label>
+                            <input type="text" id="jobStartDate1" placeholder="MM/YYYY" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="jobEndDate1">End Date</label>
+                            <input type="text" id="jobEndDate1" placeholder="MM/YYYY or Present">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="jobDescription1">Job Description</label>
+                            <textarea id="jobDescription1" rows="4"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="add-btn" onclick="addExperience()">Add Another Experience</button>
+
+                <h2>Education</h2>
+                <div id="educationContainer">
+                    <div class="dynamic-section">
+                        <div class="form-group">
+                            <label for="degree1">Degree</label>
+                            <input type="text" id="degree1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="school1">School/University</label>
+                            <input type="text" id="school1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="educationYear1">Year Completed</label>
+                            <input type="text" id="educationYear1" placeholder="YYYY">
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="add-btn" onclick="addEducation()">Add Another Education</button>
+
+                <h2>Skills</h2>
+                <div id="skillsContainer">
+                    <div class="form-group">
+                        <label for="skills">List your skills (comma separated)</label>
+                        <textarea id="skills" rows="3"
+                            placeholder="e.g., Project Management, JavaScript, Public Speaking"></textarea>
+                    </div>
+                </div>
+
+                <h2>Certifications</h2>
+                <div id="certificationsContainer">
+                    <div class="form-group">
+                        <label for="certifications">Certifications (one per line)</label>
+                        <textarea id="certifications" rows="3" placeholder="e.g., PMP Certification, 2020"></textarea>
+                    </div>
+                </div>
+
+                <button type="button" onclick="generateResume()">Generate Resume</button>
+            </form>
+        </section>
+
+        <section class="resume-section">
+            <!-- <h1>Your Resume Preview</h1> -->
+            <div class="resume-preview" id="resumePreview">
+                <div class="resume-header">
+                    <h1 id="resumeName">Your Name</h1>
+                    <div class="contact-info">
+                        <span id="resumeEmail">email@example.com</span> |
+                        <span id="resumePhone">(123) 456-7890</span> |
+                        <span id="resumeAddress">City, State</span> |
+                        <span id="resumeLinkedIn">linkedin.com/in/yourprofile</span>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Professional Summary</h2>
+                    <p id="resumeSummary">Experienced professional with skills in various areas. Detail-oriented and
+                        dedicated to achieving excellent results.</p>
+                </div>
+
+                <div class="section">
+                    <h2>Work Experience</h2>
+                    <div id="resumeExperience">
+                        <div class="experience-item">
+                            <div class="job-title">Job Title</div>
+                            <div class="company">Company Name</div>
+                            <div class="date">MM/YYYY - MM/YYYY</div>
+                            <p class="job-description">Job responsibilities and achievements.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Education</h2>
+                    <div id="resumeEducation">
+                        <div class="education-item">
+                            <div class="degree">Degree Name</div>
+                            <div class="school">University Name</div>
+                            <div class="date">YYYY</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Skills</h2>
+                    <div class="skills-list" id="resumeSkills">
+                        <span class="skill">Skill 1</span>
+                        <span class="skill">Skill 2</span>
+                        <span class="skill">Skill 3</span>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Certifications</h2>
+                    <ul id="resumeCertifications">
+                        <li>Certification 1</li>
+                        <li>Certification 2</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="download-btn" onclick="downloadResume()">Download Resume as PDF</button>
+            <br>
+            <div id="qrCode">
+                <center>
+                    <h1>--OR--</h1>
+                </center>
+                <center>
+                    <h3>Scan the below QR code to download your resume</h3>
+                </center>
+                <img src="../GeneralImages/resume_qr.png" alt="" width="100%">
+                <center>
+                    <h4>NOTE:</h4>
+                </center>
+                <center>
+                    <P>
+                        If you are unable to download by clicking, scan the QR code using any QR scanner or browser
+                        and re-enter the data.
+                    </P>
+                </center>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        let qr = document.getElementById("qrCode");
+        if (window.innerWidth > 430) {
+            qr.style.display = "none";
+        }
+
+        let experienceCount = 1;
+        let educationCount = 1;
+
+        function generateResume() {
+            // Personal Information
+            document.getElementById('resumeName').textContent = document.getElementById('fullName').value;
+            document.getElementById('resumeEmail').textContent = document.getElementById('email').value;
+            document.getElementById('resumePhone').textContent = document.getElementById('phone').value;
+            document.getElementById('resumeAddress').textContent = document.getElementById('address').value;
+            document.getElementById('resumeLinkedIn').textContent = document.getElementById('linkedin').value;
+
+            // Summary
+            document.getElementById('resumeSummary').textContent = document.getElementById('summary').value;
+
+            // Experience
+            const experienceContainer = document.getElementById('resumeExperience');
+            experienceContainer.innerHTML = '';
+
+            for (let i = 1; i <= experienceCount; i++) {
+                if (document.getElementById(`jobTitle${i}`)) {
+                    const experienceItem = document.createElement('div');
+                    experienceItem.className = 'experience-item';
+
+                    const jobTitle = document.createElement('div');
+                    jobTitle.className = 'job-title';
+                    jobTitle.textContent = document.getElementById(`jobTitle${i}`).value;
+
+                    const company = document.createElement('div');
+                    company.className = 'company';
+                    company.textContent = document.getElementById(`company${i}`).value;
+
+                    const date = document.createElement('div');
+                    date.className = 'date';
+                    const startDate = document.getElementById(`jobStartDate${i}`).value;
+                    const endDate = document.getElementById(`jobEndDate${i}`).value || 'Present';
+                    date.textContent = `${startDate} - ${endDate}`;
+
+                    const jobDesc = document.createElement('p');
+                    jobDesc.className = 'job-description';
+                    jobDesc.textContent = document.getElementById(`jobDescription${i}`).value;
+
+                    experienceItem.appendChild(jobTitle);
+                    experienceItem.appendChild(company);
+                    experienceItem.appendChild(date);
+                    experienceItem.appendChild(jobDesc);
+
+                    experienceContainer.appendChild(experienceItem);
+                }
+            }
+
+            // Education
+            const educationContainer = document.getElementById('resumeEducation');
+            educationContainer.innerHTML = '';
+
+            for (let i = 1; i <= educationCount; i++) {
+                if (document.getElementById(`degree${i}`)) {
+                    const educationItem = document.createElement('div');
+                    educationItem.className = 'education-item';
+
+                    const degree = document.createElement('div');
+                    degree.className = 'degree';
+                    degree.textContent = document.getElementById(`degree${i}`).value;
+
+                    const school = document.createElement('div');
+                    school.className = 'school';
+                    school.textContent = document.getElementById(`school${i}`).value;
+
+                    const date = document.createElement('div');
+                    date.className = 'date';
+                    date.textContent = document.getElementById(`educationYear${i}`).value;
+
+                    educationItem.appendChild(degree);
+                    educationItem.appendChild(school);
+                    educationItem.appendChild(date);
+
+                    educationContainer.appendChild(educationItem);
+                }
+            }
+
+            // Skills
+            const skills = document.getElementById('skills').value.split(',').map(skill => skill.trim());
+            const skillsContainer = document.getElementById('resumeSkills');
+            skillsContainer.innerHTML = '';
+
+            skills.forEach(skill => {
+                if (skill) {
+                    const skillElement = document.createElement('span');
+                    skillElement.className = 'skill';
+                    skillElement.textContent = skill;
+                    skillsContainer.appendChild(skillElement);
+                }
+            });
+
+            // Certifications
+            const certifications = document.getElementById('certifications').value.split('\n').filter(cert => cert.trim());
+            const certContainer = document.getElementById('resumeCertifications');
+            certContainer.innerHTML = '';
+
+            certifications.forEach(cert => {
+                if (cert) {
+                    const certElement = document.createElement('li');
+                    certElement.textContent = cert;
+                    certContainer.appendChild(certElement);
+                }
+            });
+        }
+
+        function addExperience() {
+            experienceCount++;
+            const container = document.getElementById('experienceContainer');
+
+            const newSection = document.createElement('div');
+            newSection.className = 'dynamic-section';
+            newSection.innerHTML = `
+                <div class="form-group">
+                    <label for="jobTitle${experienceCount}">Job Title</label>
+                    <input type="text" id="jobTitle${experienceCount}" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="company${experienceCount}">Company</label>
+                    <input type="text" id="company${experienceCount}" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="jobStartDate${experienceCount}">Start Date</label>
+                    <input type="text" id="jobStartDate${experienceCount}" placeholder="MM/YYYY" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="jobEndDate${experienceCount}">End Date</label>
+                    <input type="text" id="jobEndDate${experienceCount}" placeholder="MM/YYYY or Present">
+                </div>
+                
+                <div class="form-group">
+                    <label for="jobDescription${experienceCount}">Job Description</label>
+                    <textarea id="jobDescription${experienceCount}" rows="4"></textarea>
+                </div>
+                
+                <button type="button" class="remove-btn" onclick="this.parentElement.remove()">Remove Experience</button>
+            `;
+
+            container.appendChild(newSection);
+        }
+
+        function addEducation() {
+            educationCount++;
+            const container = document.getElementById('educationContainer');
+
+            const newSection = document.createElement('div');
+            newSection.className = 'dynamic-section';
+            newSection.innerHTML = `
+                <div class="form-group">
+                    <label for="degree${educationCount}">Degree</label>
+                    <input type="text" id="degree${educationCount}" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="school${educationCount}">School/University</label>
+                    <input type="text" id="school${educationCount}" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="educationYear${educationCount}">Year Completed</label>
+                    <input type="text" id="educationYear${educationCount}" placeholder="YYYY">
+                </div>
+                
+                <button type="button" class="remove-btn" onclick="this.parentElement.remove()">Remove Education</button>
+            `;
+
+            container.appendChild(newSection);
+        }
+
+        function downloadResume() {
+            // In a real implementation, you would use a library like jsPDF or html2pdf
+            // For this example, we'll just trigger the browser's print function
+            window.print();
+        }
+    </script>
+</body>
+</html>

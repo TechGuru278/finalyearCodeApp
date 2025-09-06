@@ -1,0 +1,492 @@
+[
+    {
+        "question": "Which law of thermodynamics states that energy cannot be created or destroyed?",
+        "options": [
+            "Zeroth Law",
+            "First Law",
+            "Second Law",
+            "Third Law"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which property is a measure of randomness or disorder in a system?",
+        "options": [
+            "Enthalpy",
+            "Entropy",
+            "Internal Energy",
+            "Specific Heat"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which law defines absolute zero temperature?",
+        "options": [
+            "Zeroth Law",
+            "First Law",
+            "Second Law",
+            "Third Law"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which law of thermodynamics forms the basis of temperature measurement?",
+        "options": [
+            "Zeroth Law",
+            "First Law",
+            "Second Law",
+            "Third Law"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which thermodynamic cycle is used in steam power plants?",
+        "options": [
+            "Otto Cycle",
+            "Diesel Cycle",
+            "Rankine Cycle",
+            "Carnot Cycle"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which cycle is used in internal combustion petrol engines?",
+        "options": [
+            "Otto Cycle",
+            "Diesel Cycle",
+            "Brayton Cycle",
+            "Rankine Cycle"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which cycle is used in gas turbines?",
+        "options": [
+            "Otto Cycle",
+            "Diesel Cycle",
+            "Brayton Cycle",
+            "Carnot Cycle"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The efficiency of a Carnot cycle depends on?",
+        "options": [
+            "Working substance",
+            "Type of gas",
+            "Temperature limits",
+            "Pressure ratio"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which process occurs at constant pressure?",
+        "options": [
+            "Isothermal",
+            "Isochoric",
+            "Isobaric",
+            "Adiabatic"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "In an adiabatic process, heat transfer is?",
+        "options": [
+            "Maximum",
+            "Minimum",
+            "Zero",
+            "Infinite"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the unit of entropy in SI?",
+        "options": [
+            "J/kg",
+            "J/kg·K",
+            "kJ/kg",
+            "J/mol"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does the area under a P–V diagram represent?",
+        "options": [
+            "Work done",
+            "Heat transfer",
+            "Entropy change",
+            "Internal energy"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which gas law relates pressure and temperature at constant volume?",
+        "options": [
+            "Boyle’s Law",
+            "Charles’ Law",
+            "Gay-Lussac’s Law",
+            "Avogadro’s Law"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which property remains constant in an isothermal process?",
+        "options": [
+            "Temperature",
+            "Pressure",
+            "Volume",
+            "Entropy"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "In which process is work done maximum for given pressure and volume limits?",
+        "options": [
+            "Isothermal",
+            "Adiabatic",
+            "Isobaric",
+            "Isochoric"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which cycle is the most efficient cycle between two temperature limits?",
+        "options": [
+            "Otto Cycle",
+            "Rankine Cycle",
+            "Carnot Cycle",
+            "Brayton Cycle"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which property is an intensive property?",
+        "options": [
+            "Volume",
+            "Mass",
+            "Pressure",
+            "Energy"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which is an extensive property?",
+        "options": [
+            "Temperature",
+            "Pressure",
+            "Volume",
+            "Density"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The efficiency of a heat engine is always?",
+        "options": [
+            "Greater than 1",
+            "Equal to 1",
+            "Less than 1",
+            "Zero"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The COP of a refrigerator is always?",
+        "options": [
+            "Less than 1",
+            "Greater than 1",
+            "Equal to 1",
+            "Zero"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which law states that heat cannot by itself flow from cold to hot body?",
+        "options": [
+            "Zeroth Law",
+            "First Law",
+            "Second Law",
+            "Third Law"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which property is equal to internal energy plus pressure × volume?",
+        "options": [
+            "Entropy",
+            "Enthalpy",
+            "Specific Heat",
+            "Work"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the typical efficiency of a Carnot engine operating between 500 K and 300 K?",
+        "options": [
+            "20%",
+            "40%",
+            "60%",
+            "80%"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The Kelvin-Planck statement refers to?",
+        "options": [
+            "Heat engines",
+            "Heat pumps",
+            "Refrigerators",
+            "Entropy"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which statement defines refrigerator operation?",
+        "options": [
+            "Kelvin-Planck statement",
+            "Clausius statement",
+            "Carnot theorem",
+            "Zeroth law"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which cycle is used in diesel engines?",
+        "options": [
+            "Otto Cycle",
+            "Diesel Cycle",
+            "Brayton Cycle",
+            "Carnot Cycle"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the SI unit of specific heat capacity?",
+        "options": [
+            "J/kg",
+            "J/kg·K",
+            "J/mol·K",
+            "kJ/kg"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which process is a reversible adiabatic process?",
+        "options": [
+            "Isothermal",
+            "Isobaric",
+            "Isochoric",
+            "Isentropic"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which device converts heat energy into mechanical work?",
+        "options": [
+            "Heat Pump",
+            "Refrigerator",
+            "Heat Engine",
+            "Condenser"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which device transfers heat from low temperature to high temperature?",
+        "options": [
+            "Heat Engine",
+            "Heat Pump",
+            "Condenser",
+            "Boiler"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "At absolute zero temperature, entropy of a perfect crystal is?",
+        "options": [
+            "Zero",
+            "One",
+            "Infinite",
+            "Constant"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which gas law relates volume and temperature at constant pressure?",
+        "options": [
+            "Boyle’s Law",
+            "Charles’ Law",
+            "Avogadro’s Law",
+            "Dalton’s Law"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The change in enthalpy in a constant pressure process equals?",
+        "options": [
+            "Work Done",
+            "Change in Internal Energy",
+            "Heat Transfer",
+            "Entropy Change"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the ideal gas equation?",
+        "options": [
+            "PV = nRT",
+            "P/T = nR",
+            "V/T = P",
+            "PV = mR"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which efficiency is higher for same compression ratio?",
+        "options": [
+            "Otto Cycle",
+            "Diesel Cycle",
+            "Rankine Cycle",
+            "Brayton Cycle"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "For isochoric process, the work done is?",
+        "options": [
+            "Positive",
+            "Negative",
+            "Zero",
+            "Maximum"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which property is path dependent?",
+        "options": [
+            "Work",
+            "Enthalpy",
+            "Entropy",
+            "Internal Energy"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which property is a point function?",
+        "options": [
+            "Heat",
+            "Work",
+            "Internal Energy",
+            "Shaft Work"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which is an irreversible process?",
+        "options": [
+            "Frictionless expansion",
+            "Free expansion",
+            "Isothermal compression",
+            "Isentropic expansion"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The dryness fraction of steam is ratio of?",
+        "options": [
+            "Vapor mass to total mass",
+            "Liquid mass to vapor mass",
+            "Pressure to temperature",
+            "Heat to work"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the typical COP of a household refrigerator?",
+        "options": [
+            "0.5",
+            "1",
+            "2 to 5",
+            "10"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The maximum possible efficiency of a heat engine is determined by?",
+        "options": [
+            "Working fluid",
+            "Pressure ratio",
+            "Temperature limits",
+            "Entropy"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The Mollier diagram is a plot of?",
+        "options": [
+            "Enthalpy vs Pressure",
+            "Enthalpy vs Entropy",
+            "Pressure vs Volume",
+            "Temperature vs Entropy"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The P–V curve for an isothermal process is?",
+        "options": [
+            "Straight line",
+            "Parabola",
+            "Hyperbola",
+            "Ellipse"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The throttling process is?",
+        "options": [
+            "Isothermal",
+            "Adiabatic",
+            "Isenthalpic",
+            "Isochoric"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Specific heat at constant pressure is always?",
+        "options": [
+            "Less than Cv",
+            "Greater than Cv",
+            "Equal to Cv",
+            "Zero"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which law gives relation between Cp and Cv?",
+        "options": [
+            "Zeroth Law",
+            "Mayer’s Relation",
+            "Boyle’s Law",
+            "Dalton’s Law"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In Brayton cycle, compression and expansion processes are?",
+        "options": [
+            "Isothermal",
+            "Adiabatic",
+            "Isobaric",
+            "Isochoric"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The triple point of water is at?",
+        "options": [
+            "0 °C and 1 atm",
+            "100 °C and 1 atm",
+            "0.01 °C and 0.611 kPa",
+            "4 °C and 1 atm"
+        ],
+        "correct": 2
+    }
+]

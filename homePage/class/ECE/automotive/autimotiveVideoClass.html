@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="../../../../GeneralImages/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../../../Aptitude/aptitude.css">
+    <link rel="stylesheet" href="../../../../css/backgroundImage.css">
+    <title>Automotive</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <center><img src="../../../../GeneralImages/logo.png" width="100%" height="100%"></center>
+    </div>
+    <div class="videoAred" style="height: 14rem; width: 100%;">
+    </div>
+    <div class="indexList sendPageListCss">
+        <ul>
+            <li data-video="c3CalfdYZYw?si=-UIv_PT1uQb7hlex">Basic Structure of an Automobile</li>
+            <li data-video="qfkTVYJIx8Q?si=vhymD-GpM2Sj460T">Chassis Frame Construction</li>
+            <li data-video="PYje-4D76kc?si=qQI6HDhS2G1E7VUt">Automobile Chassis and Suspension</li>
+            <li data-video="S_B6Twq1FOE?si=DhfOCZw_55vvkm8-">Automobile Controls</li>
+            <li data-video="KrwrNbnJZQ8?si=bMUdmtmfRu8tMtoj">Introduction of Steering System</li>
+            <li data-video="SuHMSDsVM5k?si=Z-qfIJ5XsHVJyerJ">How Clutch Works in Automobile?</li>
+            <li data-video="8Jr44ybyS7U?si=1uuF-o1m0rg90Lqm">Types of Friction Clutches</li>
+            <li data-video="RpL8m0jTSjE?si=aTXX06-EIG66sBsJ">Basics of an Automobile</li>
+            <li data-video="ChsK7sXMsZk?si=Js9lqWDBCEHdzbj6">General Layout of Automobile</li>
+            <li data-video="ss0GMKBYCks?si=LZf6ZFE_DZt-SgJB">Explain Engine Firing Order</li>
+            <li data-video="OMLSNwQiiKg?si=30UpmSUR_YtvZf1o">How Battery Ignition System Works</li>
+            <li data-video="dea07uYGkps?si=CEzeE4G-jC4P_Z2J">Working of a Spark Plug</li>
+            <li data-video="S4Rm3FD6WBo?si=W6USgMg3lNE71tfP">How to Calculate Stoichiometric Air Fuel Ratio?</li>
+            <li data-video="ngXfCeGeeBg?si=TGq3hC6GywqfxA38">Air Fuel Mixture Requirement in SI Engines</li>
+            <li data-video="MGbbSxZTdCQ?si=8xQYgDABvfFcEmTK">Principles of Lubrication</li>
+            <li data-video="oYqB7Dhj4jA?si=n629L5O0gW-nTRhC">Basics of Lubrication</li>
+            <li data-video="CoCmQnQOZ0k?si=VXeeToJk6h3o2xLU">How Brake Works?</li>
+            <li data-video="I08QRQYr-k8?si=v_7O2feUb2F5UDJ4">Introduction of Wheels and Tyres</li>
+            <li data-video="hiRdAnixrKE?si=ONF2mn_2vwYnqlFK">What is Transmission System?</li>
+            <li data-video="VsXvN4u6C60?si=KCcdnhgmXDIMixLv">Types of Carburetors</li>
+            <li data-video="3KT8Tk6fU2Q?si=EBktqiIsHA5pD5LN">How Battery Ignition System Works</li>
+            <li data-video="Fu60uJ7bawg?si=x11tZQVeyo-nLFSA">Types of Nozzles Explained</li>
+
+        </ul>
+    </div>
+    <script>
+        let videoArea = document.querySelector(".videoAred");
+
+        let firstVideo = document.querySelector(".indexList li").getAttribute("data-video");
+        videoArea.innerHTML = `
+            <iframe width="100%" height="250" 
+                src="https://www.youtube.com/embed/${firstVideo}" 
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        `;
+        // Load video on click
+        document.querySelectorAll(".indexList li").forEach(item => {
+            item.addEventListener("click", () => {
+                let videoId = item.getAttribute("data-video");
+                videoArea.innerHTML = `
+                    <iframe width="100%" height="250" 
+                        src="https://www.youtube.com/embed/${videoId}" 
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                `;
+            });
+        });
+
+
+        window.onpopstate = function () {
+            window.location.href = "./autimotiveIndex.html"; // 🔹 Change to your home page path
+        };
+
+        // Push a dummy state so back button works
+        window.history.pushState({}, "");
+    </script>
+    </script>
+</body>
+
+</html>

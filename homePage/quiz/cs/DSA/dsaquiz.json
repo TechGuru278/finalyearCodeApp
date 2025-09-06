@@ -1,0 +1,502 @@
+[
+    {
+        "question": "What is the time complexity of accessing an element in an array by index?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which data structure uses LIFO (Last In First Out) order?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Array",
+            "Linked List"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which data structure is best suited for implementing a recursive function?",
+        "options": [
+            "Queue",
+            "Array",
+            "Stack",
+            "Heap"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which traversal of a binary search tree (BST) gives sorted order?",
+        "options": [
+            "Preorder",
+            "Postorder",
+            "Inorder",
+            "Level order"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the time complexity of binary search?",
+        "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n log n)",
+            "O(1)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which data structure is used in BFS (Breadth-First Search)?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Heap",
+            "Graph"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which sorting algorithm has the best average-case complexity?",
+        "options": [
+            "Bubble Sort",
+            "Selection Sort",
+            "Merge Sort",
+            "Insertion Sort"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which data structure allows insertion and deletion from both ends?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Deque",
+            "Priority Queue"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+        "options": [
+            "DFS",
+            "BFS",
+            "Dijkstra's Algorithm",
+            "Kruskal's Algorithm"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the height of a complete binary tree with n nodes?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n^2)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which data structure is used in Depth-First Search (DFS)?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Heap",
+            "Priority Queue"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which hashing technique handles collisions by linking elements at the same index?",
+        "options": [
+            "Open addressing",
+            "Linear probing",
+            "Chaining",
+            "Double hashing"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which traversal is used for level-order traversal of a binary tree?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Recursion",
+            "Heap"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the time complexity of QuickSort in the best case?",
+        "options": [
+            "O(n log n)",
+            "O(n)",
+            "O(n^2)",
+            "O(log n)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which algorithm is used for finding a Minimum Spanning Tree (MST)?",
+        "options": [
+            "Dijkstra’s",
+            "Kruskal’s",
+            "Bellman-Ford",
+            "Floyd-Warshall"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which data structure is used to implement recursion internally?",
+        "options": [
+            "Queue",
+            "Heap",
+            "Stack",
+            "Graph"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the time complexity of inserting into a max heap?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which traversal is best to copy a binary tree?",
+        "options": [
+            "Preorder",
+            "Inorder",
+            "Postorder",
+            "Level order"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the auxiliary space complexity of Merge Sort?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which data structure is most suitable for implementing undo functionality?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Heap",
+            "Tree"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the time complexity of searching in a hash table (average case)?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which algorithm is used to detect a cycle in a directed graph?",
+        "options": [
+            "Kruskal’s",
+            "Dijkstra’s",
+            "Topological Sort",
+            "Floyd’s cycle detection"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which data structure is used to evaluate expressions in postfix notation?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Tree",
+            "Graph"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which traversal technique is used in the Tower of Hanoi problem?",
+        "options": [
+            "Iteration",
+            "Recursion",
+            "Greedy",
+            "Dynamic Programming"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which data structure is used to implement priority queues?",
+        "options": [
+            "Array",
+            "Stack",
+            "Heap",
+            "Linked List"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which algorithm is used for finding all-pairs shortest paths?",
+        "options": [
+            "Dijkstra’s",
+            "Floyd-Warshall",
+            "Bellman-Ford",
+            "Prim’s"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of these algorithms is NOT comparison-based?",
+        "options": [
+            "QuickSort",
+            "MergeSort",
+            "Counting Sort",
+            "HeapSort"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the worst-case time complexity of Linear Search?",
+        "options": [
+            "O(1)",
+            "O(n)",
+            "O(log n)",
+            "O(n log n)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which traversal visits nodes level by level?",
+        "options": [
+            "Inorder",
+            "Preorder",
+            "Level order",
+            "Postorder"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which is the most efficient data structure for searching and inserting?",
+        "options": [
+            "Array",
+            "Linked List",
+            "Hash Table",
+            "Stack"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the time complexity of Heap Sort?",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(log n)",
+            "O(n^2)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which data structure allows O(1) average insertion and deletion?",
+        "options": [
+            "Array",
+            "Linked List",
+            "Hash Table",
+            "Stack"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which algorithm uses divide and conquer?",
+        "options": [
+            "QuickSort",
+            "Bubble Sort",
+            "Linear Search",
+            "DFS"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of these is a non-linear data structure?",
+        "options": [
+            "Array",
+            "Stack",
+            "Queue",
+            "Graph"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which algorithm is used for minimum spanning tree using greedy method?",
+        "options": [
+            "Bellman-Ford",
+            "Kruskal’s",
+            "Floyd-Warshall",
+            "DFS"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the best-case time complexity of Insertion Sort?",
+        "options": [
+            "O(n)",
+            "O(n log n)",
+            "O(n^2)",
+            "O(1)"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which algorithm is stable among these sorting techniques?",
+        "options": [
+            "Merge Sort",
+            "Quick Sort",
+            "Heap Sort",
+            "Selection Sort"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which data structure is used in function call management?",
+        "options": [
+            "Stack",
+            "Queue",
+            "Heap",
+            "Graph"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which searching algorithm works only on sorted arrays?",
+        "options": [
+            "Linear Search",
+            "Binary Search",
+            "DFS",
+            "BFS"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the worst-case time complexity of QuickSort?",
+        "options": [
+            "O(n log n)",
+            "O(n^2)",
+            "O(n)",
+            "O(log n)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which algorithm is used for finding strongly connected components in a graph?",
+        "options": [
+            "Kruskal’s",
+            "Tarjan’s",
+            "Prim’s",
+            "Dijkstra’s"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which data structure is ideal for implementing a circular buffer?",
+        "options": [
+            "Stack",
+            "Array",
+            "Queue",
+            "Deque"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the time complexity of searching in a balanced BST?",
+        "options": [
+            "O(1)",
+            "O(log n)",
+            "O(n)",
+            "O(n log n)"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which algorithm is used for topological sorting?",
+        "options": [
+            "DFS",
+            "BFS",
+            "Kruskal’s",
+            "Dijkstra’s"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which is the auxiliary data structure used in DFS?",
+        "options": [
+            "Queue",
+            "Stack",
+            "Heap",
+            "Priority Queue"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which sorting algorithm is NOT stable?",
+        "options": [
+            "Merge Sort",
+            "Bubble Sort",
+            "Quick Sort",
+            "Insertion Sort"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which data structure is used to implement adjacency list of a graph?",
+        "options": [
+            "Array of arrays",
+            "Array of linked lists",
+            "2D matrix",
+            "Tree"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which algorithm is best for detecting negative weight cycles?",
+        "options": [
+            "Dijkstra’s",
+            "Bellman-Ford",
+            "Kruskal’s",
+            "Prim’s"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which traversal is used in expression trees to get postfix expression?",
+        "options": [
+            "Inorder",
+            "Preorder",
+            "Postorder",
+            "Level order"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which problem is solved using dynamic programming?",
+        "options": [
+            "Tower of Hanoi",
+            "Fibonacci sequence",
+            "Binary Search",
+            "DFS"
+        ],
+        "correct": 1
+    }
+]

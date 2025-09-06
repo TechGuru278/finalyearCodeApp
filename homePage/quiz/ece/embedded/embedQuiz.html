@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Quiz</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+            color: #333;
+            line-height: 1.6;
+            /* height: 100vh; */
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #e8f5e9;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .quiz-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .question {
+            font-size: 1.4rem;
+            margin-bottom: 20px;
+            color: #2e7d32;
+            font-weight: 600;
+        }
+
+        .options {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .option {
+            padding: 15px;
+            background-color: #e8f5e9;
+            border: 2px solid #c8e6c9;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .option:hover {
+            background-color: #c8e6c9;
+            transform: translateY(-2px);
+        }
+
+        .option.selected {
+            background-color: #a5d6a7;
+            border-color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        button {
+            padding: 12px 25px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #388e3c;
+        }
+
+        button:disabled {
+            background-color: #a5d6a7;
+            cursor: not-allowed;
+        }
+
+        .progress {
+            font-size: 1.1rem;
+            color: #2e7d32;
+            font-weight: 500;
+        }
+
+        .results {
+            text-align: center;
+            padding: 30px;
+            background-color: #e8f5e9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .results h2 {
+            color: #2e7d32;
+            margin-bottom: 20px;
+        }
+
+        .score {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #4CAF50;
+            margin: 20px 0;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+        }
+
+        .stat {
+            padding: 15px;
+            background-color: white;
+            border-radius: 8px;
+            min-width: 120px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .correct {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .incorrect {
+            color: #f44336;
+            font-weight: bold;
+        }
+
+        .restart {
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #2e7d32;
+        }
+
+        .restart:hover {
+            background-color: #1b5e20;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Embedded Quiz</h1>
+            <p>Test your knowledge with our Embedded Quiz</p>
+        </header>
+
+        <div class="intro">
+            <h2>Welcome to the Quiz!</h2>
+            <p>This quiz contains questions Embedded. Select the correct
+                answer for each question and see your score at the end!</p>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz" class="hidden">
+            <div class="quiz-container">
+                <div class="question" id="question"></div>
+                <div class="options" id="options"></div>
+                <div class="controls">
+                    <button id="prev-btn" disabled>Previous</button>
+                    <div class="progress" id="progress">Question 1 of 10</div>
+                    <button id="next-btn">Next</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="results" class="results hidden">
+            <h2>Quiz Results</h2>
+            <div class="score" id="score"></div>
+            <div class="stats">
+                <div class="stat">
+                    <div>Correct</div>
+                    <div class="correct" id="correct-count">0</div>
+                </div>
+                <div class="stat">
+                    <div>Incorrect</div>
+                    <div class="incorrect" id="incorrect-count">0</div>
+                </div>
+            </div>
+            <p id="feedback"></p>
+            <button class="restart" id="restart-btn">Take Quiz Again</button>
+        </div>
+    </div>
+
+    <script>
+        // Global quiz data
+        let quizData = [];
+
+        // DOM elements
+        const startBtn = document.getElementById('start-btn');
+        const intro = document.querySelector('.intro');
+        const quiz = document.getElementById('quiz');
+        const questionEl = document.getElementById('question');
+        const optionsEl = document.getElementById('options');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const progressEl = document.getElementById('progress');
+        const results = document.getElementById('results');
+        const scoreEl = document.getElementById('score');
+        const correctCountEl = document.getElementById('correct-count');
+        const incorrectCountEl = document.getElementById('incorrect-count');
+        const feedbackEl = document.getElementById('feedback');
+        const restartBtn = document.getElementById('restart-btn');
+
+        // Quiz state
+        let currentQuestion = 0;
+        let score = 0;
+        let correctAnswers = 0;
+        let incorrectAnswers = 0;
+        let userAnswers = [];
+        let shuffledQuestions = [];
+
+        // Load quiz data from JSON
+        fetch("./embedQuiz.json")
+            .then(res => res.json())
+            .then(data => {
+                quizData = data;
+                console.log("Quiz data loaded:", quizData);
+            })
+            .catch(err => console.error("Error loading quiz data:", err));
+
+        // Shuffle array function (Fisher-Yates algorithm)
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        // Initialize quiz
+        function initQuiz() {
+            if (!quizData || quizData.length === 0) {
+                alert("Quiz data not loaded yet!");
+                return;
+            }
+
+            // Shuffle questions
+            shuffledQuestions = shuffleArray([...quizData]);
+
+            // Reset state
+            currentQuestion = 0;
+            score = 0;
+            correctAnswers = 0;
+            incorrectAnswers = 0;
+            userAnswers = Array(shuffledQuestions.length).fill(null);
+
+            // Show first question
+            showQuestion();
+        }
+
+        // Display current question
+        function showQuestion() {
+            const question = shuffledQuestions[currentQuestion];
+            questionEl.textContent = question.question;
+
+            // Clear previous options
+            optionsEl.innerHTML = '';
+
+            // Create new options
+            question.options.forEach((option, index) => {
+                const optionElement = document.createElement('div');
+                optionElement.classList.add('option');
+                if (userAnswers[currentQuestion] === index) {
+                    optionElement.classList.add('selected');
+                }
+                optionElement.textContent = option;
+                optionElement.addEventListener('click', () => selectOption(index));
+                optionsEl.appendChild(optionElement);
+            });
+
+            // Update progress
+            progressEl.textContent = `Question ${currentQuestion + 1} of ${shuffledQuestions.length}`;
+
+            // Update buttons
+            prevBtn.disabled = currentQuestion === 0;
+            nextBtn.disabled = false;
+            nextBtn.textContent = currentQuestion === shuffledQuestions.length - 1 ? 'Finish Quiz' : 'Next';
+        }
+
+        // Select an option
+        function selectOption(index) {
+            userAnswers[currentQuestion] = index;
+
+            // Update UI to show selected option
+            const options = optionsEl.querySelectorAll('.option');
+            options.forEach(option => option.classList.remove('selected'));
+            options[index].classList.add('selected');
+        }
+
+        // Navigate to next question
+        function nextQuestion() {
+            if (userAnswers[currentQuestion] === null) {
+                alert('Please select an answer before proceeding.');
+                return;
+            }
+
+            if (currentQuestion < shuffledQuestions.length - 1) {
+                currentQuestion++;
+                showQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        // Navigate to previous question
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                showQuestion();
+            }
+        }
+
+        // Calculate and display results
+        function showResults() {
+            correctAnswers = 0;
+            incorrectAnswers = 0;
+
+            shuffledQuestions.forEach((question, index) => {
+                if (userAnswers[index] === question.correct) {
+                    correctAnswers++;
+                } else {
+                    incorrectAnswers++;
+                }
+            });
+
+            score = Math.round((correctAnswers / shuffledQuestions.length) * 100);
+
+            // Update results UI
+            scoreEl.textContent = `${score}%`;
+            correctCountEl.textContent = correctAnswers;
+            incorrectCountEl.textContent = incorrectAnswers;
+
+            // Add feedback
+            if (score >= 80) {
+                feedbackEl.textContent = 'Excellent! You have great knowledge about environmental topics.';
+            } else if (score >= 60) {
+                feedbackEl.textContent = 'Good job! You know quite a bit about environmental issues.';
+            } else if (score >= 40) {
+                feedbackEl.textContent = 'Not bad! Consider learning more about environmental sustainability.';
+            } else {
+                feedbackEl.textContent = 'Keep learning! Environmental knowledge is important for our planet.';
+            }
+
+            // Show results, hide quiz
+            quiz.classList.add('hidden');
+            results.classList.remove('hidden');
+        }
+
+        // Event listeners
+        startBtn.addEventListener('click', () => {
+            intro.classList.add('hidden');
+            quiz.classList.remove('hidden');
+            initQuiz();
+        });
+
+        nextBtn.addEventListener('click', nextQuestion);
+        prevBtn.addEventListener('click', prevQuestion);
+        restartBtn.addEventListener('click', () => {
+            results.classList.add('hidden');
+            intro.classList.remove('hidden');
+        });
+    </script>
+
+</body>
+
+</html>

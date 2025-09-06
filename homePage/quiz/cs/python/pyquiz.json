@@ -1,0 +1,492 @@
+[
+    {
+        "question": "Which of the following is the correct way to create a list in Python?",
+        "options": [
+            "list = (1, 2, 3)",
+            "list = [1, 2, 3]",
+            "list = {1, 2, 3}",
+            "list = <1, 2, 3>"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the output of `print(2 ** 3)`?",
+        "options": [
+            "6",
+            "8",
+            "9",
+            "23"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which keyword is used to define a function in Python?",
+        "options": [
+            "def",
+            "function",
+            "define",
+            "func"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "How do you start a single-line comment in Python?",
+        "options": [
+            "//",
+            "/*",
+            "#",
+            "--"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which data type is immutable in Python?",
+        "options": [
+            "List",
+            "Dictionary",
+            "Set",
+            "Tuple"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "What will `'hello'[1]` return?",
+        "options": [
+            "'h'",
+            "'e'",
+            "'l'",
+            "IndexError"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is used to remove the last item from a list?",
+        "options": [
+            ".remove()",
+            ".pop()",
+            ".delete()",
+            ".cut()"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the purpose of the `if __name__ == '__main__':` statement?",
+        "options": [
+            "To check if the file is the main program",
+            "To define a class",
+            "To create a loop",
+            "To import a module"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which operator is used for integer division (floor division)?",
+        "options": [
+            "/",
+            "//",
+            "%",
+            "**"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the output of `print(3 == '3')`?",
+        "options": [
+            "True",
+            "False",
+            "None",
+            "Error"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "How do you create a virtual environment named 'venv'?",
+        "options": [
+            "virtualenv venv",
+            "python -m venv venv",
+            "create venv",
+            "pip install venv"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which collection is unordered and unindexed?",
+        "options": [
+            "List",
+            "Tuple",
+            "Set",
+            "Dictionary"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What does the `open()` function return?",
+        "options": [
+            "A string of the file contents",
+            "A list of lines",
+            "A file object",
+            "A boolean"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which keyword is used to handle exceptions?",
+        "options": [
+            "try",
+            "catch",
+            "error",
+            "exception"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What will `list(range(3))` produce?",
+        "options": [
+            "[0, 1, 2]",
+            "[1, 2, 3]",
+            "[3]",
+            "[0, 1, 2, 3]"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the correct way to import only the `sqrt` function from the `math` module?",
+        "options": [
+            "import math.sqrt",
+            "from math import sqrt",
+            "import sqrt from math",
+            "include math.sqrt"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of these is NOT a valid variable name?",
+        "options": [
+            "_my_var",
+            "myVar",
+            "2nd_var",
+            "my_var_2"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the output of `'Hi' * 2`?",
+        "options": [
+            "'HiHi'",
+            "'Hi2'",
+            "2",
+            "Error"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which method is used to get the length of a list?",
+        "options": [
+            "len()",
+            "length()",
+            "size()",
+            "count()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the data type of `None`?",
+        "options": [
+            "NoneType",
+            "null",
+            "0",
+            "undefined"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What does the `append()` method do?",
+        "options": [
+            "Adds an element to the beginning of a list",
+            "Adds an element to the end of a list",
+            "Removes the last element of a list",
+            "Sorts the list"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which symbol is used for a dictionary?",
+        "options": [
+            "[]",
+            "()",
+            "{}",
+            "<>"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the purpose of the `pass` statement?",
+        "options": [
+            "To terminate a loop",
+            "To skip the current iteration of a loop",
+            "To do nothing; it's a null statement",
+            "To print a message"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What will `'hello'.upper()` return?",
+        "options": [
+            "'HELLO'",
+            "'Hello'",
+            "'hello'",
+            "Error"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of these is a comparison operator?",
+        "options": [
+            "=",
+            "==",
+            ":=",
+            "+="
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the key difference between `list.copy()` and simply assigning with `=`?",
+        "options": [
+            ".copy() is faster",
+            ".copy() creates a shallow copy, `=` creates a reference",
+            ".copy() creates a deep copy, `=` creates a shallow copy",
+            "There is no difference"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "How do you check if a key exists in a dictionary?",
+        "options": [
+            "if key in dict:",
+            "if dict.has_key(key):",
+            "if dict[key] exists:",
+            "if key.exists(dict):"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the output of `bool('False')`?",
+        "options": [
+            "True",
+            "False",
+            "None",
+            "Error"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which module is used for working with regular expressions?",
+        "options": [
+            "regex",
+            "re",
+            "string",
+            "text"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does the `strip()` method do?",
+        "options": [
+            "Splits a string into a list",
+            "Removes leading and trailing whitespace",
+            "Converts a string to uppercase",
+            "Replaces substrings"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the main feature of an f-string?",
+        "options": [
+            "They are immutable",
+            "They are faster than other strings",
+            "They allow embedded expressions inside string literals",
+            "They can only contain numbers"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the result of `10 % 3`?",
+        "options": [
+            "3",
+            "1",
+            "0",
+            "3.333"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of these is used to iterate over a sequence with an index?",
+        "options": [
+            "for i in sequence:",
+            "for i, item in enumerate(sequence):",
+            "for index in sequence:",
+            "sequence.iterate()"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is a lambda function?",
+        "options": [
+            "A function defined inside another function",
+            "A large, complex function",
+            "A small anonymous function",
+            "A function that calls itself"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What does the `get()` method do for dictionaries?",
+        "options": [
+            "Adds a new key-value pair",
+            "Returns the value for a key if it exists, otherwise returns a default value",
+            "Deletes a key-value pair",
+            "Updates the dictionary"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What will `'cat' in 'concatenate'` return?",
+        "options": [
+            "True",
+            "False",
+            "None",
+            "Error"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of these is the correct way to create a set?",
+        "options": [
+            "s = {'a', 'b', 'c'}",
+            "s = ['a', 'b', 'c']",
+            "s = ('a', 'b', 'c')",
+            "s = {'a': 1, 'b': 2}"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the purpose of the `__init__` method?",
+        "options": [
+            "To initialize the class's state (like a constructor)",
+            "To terminate an object",
+            "To import a module",
+            "To print an object's details"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the result of `round(3.14159, 2)`?",
+        "options": [
+            "3.14",
+            "3.1",
+            "3.0",
+            "3.142"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of these is a mutable data type?",
+        "options": [
+            "int",
+            "str",
+            "tuple",
+            "list"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "What does the `join()` method do?",
+        "options": [
+            "Splits a string into a list",
+            "Combines a list of strings into one string",
+            "Adds a string to the end of another string",
+            "Finds a substring"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the global interpreter lock (GIL) in Python?",
+        "options": [
+            "A tool for locking files",
+            "A mutex that allows only one thread to execute at a time",
+            "A security feature",
+            "A type of loop"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the output of `max([1, 5, 2])`?",
+        "options": [
+            "1",
+            "5",
+            "2",
+            "[1, 5, 2]"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of these is used to open a file for writing, creating it if it doesn't exist?",
+        "options": [
+            "'r'",
+            "'w'",
+            "'a'",
+            "'x'"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is list comprehension?",
+        "options": [
+            "A way to make lists more readable",
+            "A concise way to create lists",
+            "A method for sorting lists",
+            "A function to find the length of a list"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the `self` parameter in a class method?",
+        "options": [
+            "A reference to the class itself",
+            "A reference to the instance of the class",
+            "A keyword for inheritance",
+            "A placeholder with no real meaning"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does the `break` statement do?",
+        "options": [
+            "Exits the current loop or switch statement",
+            "Skips the rest of the code in the current iteration",
+            "Prints a message and continues",
+            "Raises an error"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "How can you create a package in Python?",
+        "options": [
+            "By creating a file with a .pkg extension",
+            "By creating a directory with an __init__.py file",
+            "By using the 'package' keyword",
+            "By zipping the files together"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the main use of the `zip()` function?",
+        "options": [
+            "To compress files",
+            "To iterate over several iterables in parallel",
+            "To combine two lists into a dictionary",
+            "To unzip archives"
+        ],
+        "correct": 1
+    }
+]

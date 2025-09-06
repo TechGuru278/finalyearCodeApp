@@ -1,0 +1,202 @@
+[
+    {
+        "question": "What is an embedded system?",
+        "options": [
+            "A general-purpose computer",
+            "A system designed for a specific task",
+            "A programming language",
+            "A type of software library"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which is the brain of an embedded system?",
+        "options": [
+            "Memory Unit",
+            "Microcontroller or Microprocessor",
+            "Sensor",
+            "Actuator"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which language is most commonly used in embedded systems?",
+        "options": [
+            "Python",
+            "C",
+            "JavaScript",
+            "SQL"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What does 'real-time' in real-time embedded systems mean?",
+        "options": [
+            "The system works without any delay",
+            "The system responds within a defined time constraint",
+            "The system never fails",
+            "The system uses real clocks"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which component stores program code in microcontrollers?",
+        "options": [
+            "RAM",
+            "EEPROM",
+            "ROM/Flash",
+            "Cache"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What does UART stand for?",
+        "options": [
+            "Universal Asynchronous Receiver Transmitter",
+            "Universal Access Read Timer",
+            "Unit Allocation Resource Tool",
+            "Universal Arithmetic Register Table"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which communication protocol is synchronous?",
+        "options": [
+            "UART",
+            "I2C",
+            "SPI",
+            "CAN"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the function of an ADC in embedded systems?",
+        "options": [
+            "Converts analog signals to digital",
+            "Stores digital data",
+            "Generates analog signals",
+            "Manages memory allocation"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which timer mode allows generation of PWM signals?",
+        "options": [
+            "Overflow mode",
+            "CTC mode",
+            "PWM mode",
+            "Normal mode"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the purpose of a watchdog timer?",
+        "options": [
+            "To monitor battery level",
+            "To reset the system in case of a fault",
+            "To increase system speed",
+            "To debug system errors"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which memory is volatile in embedded systems?",
+        "options": [
+            "ROM",
+            "Flash",
+            "RAM",
+            "EEPROM"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the function of GPIO pins in microcontrollers?",
+        "options": [
+            "Manage power supply",
+            "Provide general-purpose input and output control",
+            "Store configuration data",
+            "Control only sensors"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which bus is commonly used for inter-integrated communication between ICs?",
+        "options": [
+            "UART",
+            "I2C",
+            "SPI",
+            "CAN"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of the following is a feature of RISC architecture?",
+        "options": [
+            "Complex instructions",
+            "Fewer instructions with simpler operations",
+            "Slower execution",
+            "No pipelining"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the main function of an actuator in an embedded system?",
+        "options": [
+            "To process data",
+            "To sense physical quantities",
+            "To convert signals into physical actions",
+            "To store data"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which protocol is commonly used for wireless embedded systems communication?",
+        "options": [
+            "I2C",
+            "Bluetooth",
+            "SPI",
+            "CAN"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the function of a bootloader in microcontrollers?",
+        "options": [
+            "To store sensor data",
+            "To load and start the program",
+            "To manage interrupts",
+            "To perform encryption"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is an interrupt in embedded systems?",
+        "options": [
+            "A request to the processor to execute a specific task immediately",
+            "A method to reset the microcontroller",
+            "A power-saving technique",
+            "A type of synchronous communication"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which type of memory is used to store the firmware?",
+        "options": [
+            "EEPROM",
+            "RAM",
+            "ROM/Flash",
+            "Cache"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which tool is commonly used for debugging embedded systems?",
+        "options": [
+            "Oscilloscope",
+            "Logic Analyzer",
+            "JTAG Debugger",
+            "All of the above"
+        ],
+        "correct": 3
+    }
+]

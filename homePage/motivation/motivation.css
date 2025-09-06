@@ -1,0 +1,72 @@
+p{
+    justify-items: center;
+    text-align: center;
+}
+.tonotch{
+    height: 7rem;
+    background-color: rgb(140, 198, 60);
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 30px;
+    top: 0;
+    color: aliceblue;
+    position: fixed;
+}
+.tonotch p{
+    color: red;
+}
+.list{
+    margin-top: 10rem;
+    /* background-color: aqua; */
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 1cm;
+}
+.list .m{
+    height: 9rem;
+    width: 8rem;
+    background-color: white;
+    box-shadow: 0cm 0.1cm 0.4cm greenyellow;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.m .logo{
+    font-size: 1.4cm;
+}
+
+.mainBox{
+    /* background-color: aqua; */
+    /* margin-top: 9rem; */
+    height: 76vh;
+    width: 100%;
+}
+
+footer{
+    position: absolute;
+    bottom: 100;
+    background-color: rgb(140, 198, 60);
+    margin-bottom: 0;
+    width: 100%;
+    color: aliceblue;
+}
+
+.topBox{
+        height: 7rem;
+    background-color: rgb(140, 198, 60);
+    width: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 30px;
+    /* top: 0; */
+    color: aliceblue;
+    /* position: fixed; */
+}

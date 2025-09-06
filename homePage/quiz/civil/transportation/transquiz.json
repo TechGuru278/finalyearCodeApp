@@ -1,0 +1,512 @@
+[
+    {
+        "question": "Which method is commonly used in India for the design of flexible pavements?",
+        "options": [
+            "CBR Method",
+            "Group Index Method",
+            "Westergaard’s Method",
+            "IRC 58 Method"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The ruling gradient on highways is provided for?",
+        "options": [
+            "Ease of vehicle operation",
+            "To reduce fuel consumption",
+            "To provide maximum comfort",
+            "All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "What is the design speed for National Highways in plain terrain as per IRC?",
+        "options": [
+            "50 km/h",
+            "80 km/h",
+            "100 km/h",
+            "120 km/h"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which of the following is not a type of transition curve?",
+        "options": [
+            "Clothoid",
+            "Cubic parabola",
+            "Lemniscate",
+            "Helix"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "The stopping sight distance depends on?",
+        "options": [
+            "Reaction time of driver",
+            "Speed of vehicle",
+            "Coefficient of friction",
+            "All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "In rigid pavements, the major type of stress is?",
+        "options": [
+            "Tensile stress due to bending",
+            "Shear stress due to wheel load",
+            "Compressive stress due to subgrade",
+            "Frictional stress due to subgrade"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which test is used to evaluate the strength of subgrade soil for pavement design?",
+        "options": [
+            "Tri-axial test",
+            "Plate load test",
+            "CBR test",
+            "Direct shear test"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Camber is provided on roads to?",
+        "options": [
+            "Drain off rainwater",
+            "Increase vehicle speed",
+            "Reduce pavement thickness",
+            "Improve visibility"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of the following is a flexible pavement failure?",
+        "options": [
+            "Mud pumping",
+            "Blow up",
+            "Rutting",
+            "Corner break"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The desirable length of overtaking sight distance is equal to?",
+        "options": [
+            "2 times SSD",
+            "3 times SSD",
+            "4 times SSD",
+            "5 times SSD"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The purpose of providing extra widening on curves is?",
+        "options": [
+            "To increase pavement strength",
+            "To counteract centrifugal force",
+            "To allow for off-tracking of vehicles",
+            "To improve aesthetic appearance"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The maximum super-elevation in plain and rolling terrain in India is?",
+        "options": [
+            "1 in 10",
+            "1 in 15",
+            "1 in 20",
+            "1 in 30"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of the following is not an intersection at grade?",
+        "options": [
+            "Cross roads",
+            "T-intersection",
+            "Y-intersection",
+            "Cloverleaf"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "WBM roads were developed by?",
+        "options": [
+            "Telford",
+            "Macadam",
+            "Westergaard",
+            "IRC"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is used for the design of rigid pavements?",
+        "options": [
+            "Group Index Method",
+            "CBR Method",
+            "Westergaard’s Method",
+            "Burmeister’s Method"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The PCU (Passenger Car Unit) concept is used in?",
+        "options": [
+            "Highway capacity studies",
+            "Bridge loading studies",
+            "Soil stabilization",
+            "Traffic signs"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The basic objective of traffic engineering is?",
+        "options": [
+            "To minimize accidents",
+            "To ensure smooth traffic flow",
+            "To reduce travel time",
+            "All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which of the following traffic studies is conducted by moving observer method?",
+        "options": [
+            "Traffic volume study",
+            "Origin-destination study",
+            "Speed and delay study",
+            "Accident study"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The time headway is defined as?",
+        "options": [
+            "Time difference between arrivals of two successive vehicles",
+            "Time taken by a vehicle to cross a section",
+            "Time lost in traffic jam",
+            "Reaction time of driver"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "PCU value of a cycle as per IRC is?",
+        "options": [
+            "0.2",
+            "0.5",
+            "0.8",
+            "1.0"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which type of pavement has low initial cost but high maintenance cost?",
+        "options": [
+            "Flexible pavement",
+            "Rigid pavement",
+            "Composite pavement",
+            "Prestressed concrete pavement"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Skid resistance of pavement surface is measured by?",
+        "options": [
+            "Benkelman beam",
+            "Dynamic cone penetrometer",
+            "Pendulum tester",
+            "Vane shear apparatus"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the maximum camber recommended for water-bound macadam roads?",
+        "options": [
+            "1 in 50",
+            "1 in 40",
+            "1 in 30",
+            "1 in 25"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Traffic rotary is justified when?",
+        "options": [
+            "Traffic volume is low",
+            "Traffic volume is very high",
+            "Traffic volume is moderate with equal distribution",
+            "Traffic consists only of heavy vehicles"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which test is conducted to evaluate aggregate toughness?",
+        "options": [
+            "Los Angeles Abrasion Test",
+            "Impact Test",
+            "Crushing Test",
+            "Shape Test"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The IRC recommends the design life of flexible pavements as?",
+        "options": [
+            "5 years",
+            "10 years",
+            "15 years",
+            "20 years"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which traffic sign shape is used for regulatory signs?",
+        "options": [
+            "Circular",
+            "Triangular",
+            "Rectangular",
+            "Diamond"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The maximum grade for hill roads is about?",
+        "options": [
+            "4%",
+            "6%",
+            "8%",
+            "10%"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the minimum right-of-way for National Highways in plain terrain?",
+        "options": [
+            "30 m",
+            "45 m",
+            "60 m",
+            "75 m"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which of the following is a pavement evaluation method?",
+        "options": [
+            "CBR Test",
+            "Benkelman Beam Test",
+            "Marshall Stability Test",
+            "Triaxial Test"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The purpose of grade compensation on horizontal curves is?",
+        "options": [
+            "To reduce pavement thickness",
+            "To reduce driver effort",
+            "To balance tractive force",
+            "To drain rainwater"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The transition curve is provided to satisfy?",
+        "options": [
+            "Comfort condition",
+            "Mechanical condition",
+            "Aesthetic condition",
+            "All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which material is commonly used for surface dressing of roads?",
+        "options": [
+            "Bitumen",
+            "Cement",
+            "Lime",
+            "Fly ash"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The ‘3 Es’ of traffic engineering are?",
+        "options": [
+            "Engineering, Enforcement, Education",
+            "Economy, Efficiency, Education",
+            "Engineering, Economy, Energy",
+            "Enforcement, Efficiency, Education"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the length of a single lane in IRC village roads?",
+        "options": [
+            "3.0 m",
+            "3.75 m",
+            "4.25 m",
+            "5.5 m"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "If speed-density relation is linear, the maximum flow occurs at?",
+        "options": [
+            "Zero speed",
+            "Half of free-flow speed",
+            "Free-flow speed",
+            "Twice the free-flow speed"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which is the most suitable traffic signal system for high traffic density?",
+        "options": [
+            "Fixed time signal",
+            "Manual signal",
+            "Traffic actuated signal",
+            "Flashing signal"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The design wheel load for highway pavement in India is approximately?",
+        "options": [
+            "4100 kg",
+            "5100 kg",
+            "6100 kg",
+            "7100 kg"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which instrument is used to measure spot speed?",
+        "options": [
+            "Speedometer",
+            "Radar gun",
+            "Odometer",
+            "Benkelman beam"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which component of traffic flow is most variable?",
+        "options": [
+            "Speed",
+            "Density",
+            "Volume",
+            "Time headway"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Traffic density is defined as?",
+        "options": [
+            "Vehicles per km length of road",
+            "Vehicles per unit time",
+            "Vehicles per lane",
+            "Vehicles per km per lane"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which factor governs the selection of site distance?",
+        "options": [
+            "Type of road surface",
+            "Driver’s reaction time",
+            "Vehicle type",
+            "Weather condition"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The IRC recommends maximum super-elevation in snow bound areas as?",
+        "options": [
+            "1 in 10",
+            "1 in 12",
+            "1 in 15",
+            "1 in 20"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "The main cause of ‘corrugations’ in flexible pavement is?",
+        "options": [
+            "Poor drainage",
+            "High traffic",
+            "Lack of bond between layers",
+            "Repeated braking and acceleration"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "The Marshall stability test is conducted on?",
+        "options": [
+            "Bituminous mix",
+            "Aggregates",
+            "Subgrade soil",
+            "Cement concrete"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which method is used to estimate traffic capacity of roads?",
+        "options": [
+            "Moving observer method",
+            "PCU method",
+            "Greenshields model",
+            "Queueing theory"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The equilibrium speed at which traffic flow is maximum is known as?",
+        "options": [
+            "Critical speed",
+            "Optimum speed",
+            "Jam speed",
+            "Free-flow speed"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Expansion joints in rigid pavements are provided to?",
+        "options": [
+            "Reduce load stress",
+            "Allow slab movement",
+            "Reduce shrinkage cracks",
+            "Improve drainage"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The term ‘flying junction’ in transportation means?",
+        "options": [
+            "A rotary intersection",
+            "An interchange with grade separation",
+            "A pedestrian crossing",
+            "A bus stop"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which vehicle is considered as the standard vehicle for highway geometric design?",
+        "options": [
+            "Passenger car",
+            "Bus",
+            "Truck",
+            "Two-wheeler"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which test is conducted to check stripping value of aggregates?",
+        "options": [
+            "Soundness test",
+            "Bitumen adhesion test",
+            "Water absorption test",
+            "Durability test"
+        ],
+        "correct": 1
+    }
+]

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="shortcut icon" href="../../../../GeneralImages/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../../../Aptitude/aptitude.css">
+    <link rel="stylesheet" href="../../../../css/backgroundImage.css">
+    <title>Civil Lab</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <center><img src="../../../../GeneralImages/logo.png" width="100%" height="100%"></center>
+    </div>
+    <div class="videoAred" style="height: 14rem; width: 100%;">
+    </div>
+    <div class="indexList sendPageListCss">
+        <ul>
+            <li data-video="VGM4ChM-Th8?si=rVYQ--BoKR5PmWJP">Determination of Cd for Venturimeter</li>
+            <li data-video="j6tRzQ5RkCc?si=HElvvUhV7lM0hgB0">Determination of Cd for orificemeter</li>
+            <li data-video="W4m6Ya1lCmw?si=KMrmYxrvnuljloSB">Fineness modulus & grain size distribution</li>
+            <li data-video="1PghjwKowIg?si=HKmoGLg0_gK_wCi3">Building materials testing laboratory</li>
+            <li data-video="o-zyXtgGaCY?si=S9fZMS0QC-zo9FzA">Bulk density of coarse aggregate</li>
+            <li data-video="2yx-b9_aVUs?si=VLIhPTGG5qvk_-lE">Specific gravity of cement</li>
+            <li data-video="5oNxx3nUlwo?si=w1E1m_R8RuooDl7x">Determination of Cd for triangular notch</li>
+            <li data-video="l6S8LGGEFa0?si=80ymOqOODkkqj9yw">Drawing & Detailing of singly Reinforced beam</li>
+            <li data-video="6GlDeeznErs?si=K6A6Sckot1C29X5L">Drawing & Detailing of doubly Reinforced beam</li>
+            <li data-video="maQyTJBxiYY?si=7KhQhR27_Pf1vVHy">Specific gravity of fine aggregates</li>
+            <li data-video="IoihEXEjcZg?si=CiALa8RUd0VeWmhU">QGIS</li>
+            <li data-video="bvjHb8xnl6I?si=_Tvbq2UT51bPffAP">Analysis of frames</li>
+            <a href="https://bit.ly/3UUcWdt">
+                <li>For more....</li>
+            </a>
+        </ul>
+    </div>
+    <script>
+        let videoArea = document.querySelector(".videoAred");
+
+        let firstVideo = document.querySelector(".indexList li").getAttribute("data-video");
+        videoArea.innerHTML = `
+            <iframe width="100%" height="250" 
+                src="https://www.youtube.com/embed/${firstVideo}" 
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        `;
+        // Load video on click
+        document.querySelectorAll(".indexList li").forEach(item => {
+            item.addEventListener("click", () => {
+                let videoId = item.getAttribute("data-video");
+                videoArea.innerHTML = `
+                    <iframe width="100%" height="250" 
+                        src="https://www.youtube.com/embed/${videoId}" 
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                `;
+            });
+        });
+
+
+        window.onpopstate = function () {
+            window.location.href = "./civilLab.html"; // 🔹 Change to your home page path
+        };
+
+        // Push a dummy state so back button works
+        window.history.pushState({}, "");
+    </script>
+    </script>
+</body>
+
+</html>

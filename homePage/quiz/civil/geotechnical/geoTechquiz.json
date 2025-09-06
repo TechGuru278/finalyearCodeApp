@@ -1,0 +1,482 @@
+[
+    {
+        "question": "The Atterberg limit that indicates the boundary between liquid and plastic states of soil is?",
+        "options": [
+            "Plastic limit",
+            "Shrinkage limit",
+            "Liquid limit",
+            "Flow index"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The ratio of void volume to total volume of soil mass is called?",
+        "options": [
+            "Porosity",
+            "Void ratio",
+            "Degree of saturation",
+            "Air content"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which soil type has the highest compressibility?",
+        "options": [
+            "Sand",
+            "Silt",
+            "Gravel",
+            "Clay"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "The shear strength of soil is expressed using which failure criterion?",
+        "options": [
+            "Mohr-Coulomb",
+            "Rankine",
+            "Terzaghi",
+            "Prandtl"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which method is commonly used for soil compaction control at site?",
+        "options": [
+            "Direct shear test",
+            "Proctor test",
+            "Triaxial test",
+            "Plate load test"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In a flow net, the quantity of seepage depends on?",
+        "options": [
+            "Number of flow channels and equipotential drops",
+            "Only number of equipotential drops",
+            "Only number of flow channels",
+            "Permeability alone"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The effective stress principle was introduced by?",
+        "options": [
+            "Rankine",
+            "Terzaghi",
+            "Mohr",
+            "Casagrande"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which foundation type is most suitable for black cotton soil?",
+        "options": [
+            "Isolated footing",
+            "Pile foundation",
+            "Raft foundation",
+            "Well foundation"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The minimum void ratio of a soil corresponds to?",
+        "options": [
+            "Loose state",
+            "Dense state",
+            "Critical state",
+            "Plastic state"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which soil property is determined by hydrometer analysis?",
+        "options": [
+            "Moisture content",
+            "Grain size distribution (fine fraction)",
+            "Plasticity index",
+            "Compaction characteristics"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The permeability of clay compared to sand is?",
+        "options": [
+            "Higher",
+            "Lower",
+            "Same",
+            "Unpredictable"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In a triaxial compression test, drainage is allowed under?",
+        "options": [
+            "Unconsolidated-undrained test",
+            "Consolidated-drained test",
+            "Unconsolidated-drained test",
+            "Quick test"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which parameter of soil increases due to compaction?",
+        "options": [
+            "Permeability",
+            "Shear strength",
+            "Compressibility",
+            "Void ratio"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The bearing capacity of soil is influenced most by?",
+        "options": [
+            "Water content",
+            "Soil type and density",
+            "Load eccentricity",
+            "Foundation material"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In Rankine’s theory of earth pressure, the backfill is assumed to be?",
+        "options": [
+            "Cohesive",
+            "Cohesionless",
+            "Overconsolidated",
+            "Partially saturated"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Quick sand condition occurs when?",
+        "options": [
+            "Seepage velocity exceeds critical velocity",
+            "Permeability decreases",
+            "Soil is clayey",
+            "Effective stress is very high"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The most critical condition for stability of slopes is?",
+        "options": [
+            "During dry season",
+            "Immediately after rainfall",
+            "During excavation",
+            "After compaction"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In standard Proctor compaction test, the mold volume is?",
+        "options": [
+            "1000 cm³",
+            "943 cm³",
+            "1000 ml",
+            "1 liter"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which parameter is not obtained from consolidation test?",
+        "options": [
+            "Coefficient of consolidation",
+            "Compression index",
+            "Shear strength",
+            "Pre-consolidation pressure"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "For slope stability, factor of safety is defined as?",
+        "options": [
+            "Resisting forces / Driving forces",
+            "Driving forces / Resisting forces",
+            "Shear stress / Shear strength",
+            "Cohesion / Void ratio"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which soil shows dilatancy on shear?",
+        "options": [
+            "Loose sand",
+            "Dense sand",
+            "Clay",
+            "Silt"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the typical range of unit weight of soils in kN/m³?",
+        "options": [
+            "5 - 10",
+            "10 - 20",
+            "20 - 30",
+            "30 - 40"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Compaction curve shifts upward when?",
+        "options": [
+            "Energy increases",
+            "Soil type changes to clay",
+            "Moisture decreases",
+            "Temperature decreases"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which method is best for improving soft clay soil bearing capacity?",
+        "options": [
+            "Vibro-compaction",
+            "Preloading with vertical drains",
+            "Blasting",
+            "Dynamic compaction"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which parameter is highest in overconsolidated clay?",
+        "options": [
+            "Compressibility",
+            "Shear strength",
+            "Permeability",
+            "Void ratio"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The active earth pressure decreases if?",
+        "options": [
+            "Wall moves away from soil",
+            "Wall moves towards soil",
+            "Soil cohesion reduces",
+            "Water table rises"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The permeability of stratified soil deposits is governed by?",
+        "options": [
+            "Vertical permeability only",
+            "Horizontal permeability only",
+            "Direction of flow",
+            "Void ratio alone"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "In plate load test, settlement observed is due to?",
+        "options": [
+            "Elastic deformation only",
+            "Consolidation only",
+            "Elastic + Plastic deformation",
+            "Shear failure alone"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "The coefficient of uniformity (Cu) is defined as?",
+        "options": [
+            "D60 / D10",
+            "D30 / D10",
+            "D10 / D60",
+            "D90 / D30"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The angle of repose of dry sand is approximately?",
+        "options": [
+            "15° - 20°",
+            "25° - 30°",
+            "30° - 40°",
+            "45° - 60°"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which soil parameter is most critical in settlement analysis?",
+        "options": [
+            "Shear strength",
+            "Elastic modulus",
+            "Permeability",
+            "Void ratio"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "If water table rises above foundation level, bearing capacity?",
+        "options": [
+            "Increases",
+            "Decreases",
+            "Remains constant",
+            "Becomes infinite"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In vane shear test, soil tested is?",
+        "options": [
+            "Saturated sand",
+            "Soft clay",
+            "Dense sand",
+            "Silt"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "In case of clayey soils, the strength parameter most relevant is?",
+        "options": [
+            "Angle of internal friction",
+            "Cohesion",
+            "Porosity",
+            "Permeability"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is used to determine field density of soil?",
+        "options": [
+            "Hydrometer method",
+            "Sand replacement method",
+            "Pycnometer method",
+            "Atterberg test"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The settlement of a footing is proportional to?",
+        "options": [
+            "Footing depth",
+            "Footing area",
+            "Applied pressure and compressibility",
+            "Permeability"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which soil type shows negative pore water pressure under shear?",
+        "options": [
+            "Loose sand",
+            "Dense sand",
+            "Clay",
+            "Silt"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "If seepage pressure equals submerged unit weight, the condition is?",
+        "options": [
+            "Boiling condition",
+            "Consolidation",
+            "Critical state",
+            "Over-consolidation"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The stability of a retaining wall mainly depends on?",
+        "options": [
+            "Wall material",
+            "Earth pressure",
+            "Footing depth",
+            "Backfill slope"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The coefficient of curvature (Cc) is defined as?",
+        "options": [
+            "(D30)² / (D10·D60)",
+            "D60 / D10",
+            "D90 / D60",
+            "D10 / D30"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The unconfined compression strength (qu) of soil is equal to?",
+        "options": [
+            "Shear strength",
+            "2 × Shear strength",
+            "Half of cohesion",
+            "Twice cohesion"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "In consolidation test, a log-time curve is used to determine?",
+        "options": [
+            "Compression index",
+            "Coefficient of consolidation",
+            "Shear strength",
+            "Critical void ratio"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which method is used for slope stability analysis?",
+        "options": [
+            "Mohr’s circle",
+            "Taylor’s stability number",
+            "Hydrometer analysis",
+            "Atterberg limits"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "The soil parameter most affected by freezing and thawing is?",
+        "options": [
+            "Shear strength",
+            "Permeability",
+            "Compressibility",
+            "Void ratio"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "The ratio of volume of water to volume of voids is?",
+        "options": [
+            "Porosity",
+            "Degree of saturation",
+            "Moisture content",
+            "Air voids"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Skempton’s pore pressure parameter B is equal to 1 for?",
+        "options": [
+            "Dry soil",
+            "Partially saturated soil",
+            "Fully saturated soil",
+            "Dense sand"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which soil classification system is used in highways?",
+        "options": [
+            "USCS",
+            "AASHTO",
+            "IS Classification",
+            "Unified System"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "For shallow foundations, general shear failure occurs in?",
+        "options": [
+            "Loose sand",
+            "Soft clay",
+            "Dense sand",
+            "Silty soil"
+        ],
+        "correct": 2
+    }
+]

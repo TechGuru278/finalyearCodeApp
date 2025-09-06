@@ -1,0 +1,512 @@
+[
+    {
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "options": [
+            "<a>",
+            "<link>",
+            "<href>",
+            "<hyper>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which HTML attribute is used to display alternative text for an image?",
+        "options": [
+            "src",
+            "alt",
+            "title",
+            "href"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which tag is used to define the largest heading in HTML?",
+        "options": [
+            "<h1>",
+            "<h6>",
+            "<header>",
+            "<head>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which CSS property is used to change text color?",
+        "options": [
+            "font-color",
+            "text-color",
+            "color",
+            "foreground"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which of the following is NOT a semantic HTML element?",
+        "options": [
+            "<article>",
+            "<footer>",
+            "<div>",
+            "<section>"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which CSS property controls the size of text?",
+        "options": [
+            "font-style",
+            "font-size",
+            "text-size",
+            "size"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which HTML tag is used to insert a line break?",
+        "options": [
+            "<break>",
+            "<br>",
+            "<lb>",
+            "<hr>"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which of these is the correct way to add an external CSS file?",
+        "options": [
+            "<style src='style.css'>",
+            "<css href='style.css'>",
+            "<link rel='stylesheet' href='style.css'>",
+            "<script src='style.css'>"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which HTML tag is used for creating an ordered list?",
+        "options": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<list>"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which CSS property is used to set the background color?",
+        "options": [
+            "color-background",
+            "bgcolor",
+            "background-color",
+            "background-style"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "In JavaScript, which symbol is used for comments?",
+        "options": [
+            "#",
+            "//",
+            "/* */",
+            "<!-- -->"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which HTML element is used to play video files?",
+        "options": [
+            "<video>",
+            "<media>",
+            "<movie>",
+            "<play>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which CSS property is used to set the space between letters?",
+        "options": [
+            "word-spacing",
+            "letter-spacing",
+            "line-height",
+            "spacing"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which HTML attribute is used to specify inline styles?",
+        "options": [
+            "class",
+            "style",
+            "styles",
+            "css"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which JavaScript keyword is used to declare a variable?",
+        "options": [
+            "var",
+            "let",
+            "const",
+            "All of the above"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which HTTP status code means 'Not Found'?",
+        "options": [
+            "200",
+            "301",
+            "404",
+            "500"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which HTML tag is used to display tabular data?",
+        "options": [
+            "<table>",
+            "<grid>",
+            "<tab>",
+            "<data>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which CSS property makes text bold?",
+        "options": [
+            "text-weight",
+            "font-style",
+            "font-weight",
+            "bold"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which JavaScript function is used to print output to the console?",
+        "options": [
+            "print()",
+            "console.log()",
+            "log.print()",
+            "document.write()"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which tag is used to define a list item?",
+        "options": [
+            "<item>",
+            "<li>",
+            "<list>",
+            "<ul>"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which HTML attribute is used to open a link in a new tab?",
+        "options": [
+            "src='_blank'",
+            "target='_blank'",
+            "open='new'",
+            "tab='new'"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which CSS property is used to make corners rounded?",
+        "options": [
+            "corner-radius",
+            "border-style",
+            "border-radius",
+            "round-corner"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which HTML tag is used for inserting an image?",
+        "options": [
+            "<img>",
+            "<image>",
+            "<src>",
+            "<pic>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which JavaScript method is used to select an element by ID?",
+        "options": [
+            "getElementById()",
+            "querySelector()",
+            "getById()",
+            "findElement()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which CSS property is used to align text in the center?",
+        "options": [
+            "text-align",
+            "align",
+            "font-align",
+            "center"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which of these is NOT a valid CSS unit?",
+        "options": [
+            "px",
+            "em",
+            "rem",
+            "ptx"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which JavaScript method is used to convert a string to an integer?",
+        "options": [
+            "parseInt()",
+            "toInteger()",
+            "int()",
+            "Number()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which HTML tag is used to display a checkbox?",
+        "options": [
+            "<check>",
+            "<input type='checkbox'>",
+            "<checkbox>",
+            "<tick>"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which CSS property is used to make text italic?",
+        "options": [
+            "font-weight",
+            "text-style",
+            "font-style",
+            "italic"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which JavaScript method is used to remove the last element from an array?",
+        "options": [
+            "pop()",
+            "remove()",
+            "delete()",
+            "shift()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which HTML element is used for line breaks?",
+        "options": [
+            "<break>",
+            "<hr>",
+            "<br>",
+            "<lb>"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which CSS property sets the space inside an element's border?",
+        "options": [
+            "margin",
+            "padding",
+            "border-spacing",
+            "spacing"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which JavaScript operator is used to compare both value and type?",
+        "options": [
+            "==",
+            "===",
+            "!=",
+            "equals"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which tag is used to define an unordered list?",
+        "options": [
+            "<ul>",
+            "<ol>",
+            "<li>",
+            "<list>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which CSS property is used to change the font?",
+        "options": [
+            "text-family",
+            "font-family",
+            "font-style",
+            "font"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which HTML tag is used for inline JavaScript?",
+        "options": [
+            "<javascript>",
+            "<code>",
+            "<js>",
+            "<script>"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which CSS property sets the transparency of an element?",
+        "options": [
+            "opacity",
+            "visibility",
+            "transparent",
+            "alpha"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which JavaScript method is used to add a new element at the end of an array?",
+        "options": [
+            "push()",
+            "append()",
+            "add()",
+            "insert()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which HTML attribute is used to specify the path of an image?",
+        "options": [
+            "src",
+            "alt",
+            "href",
+            "path"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which CSS property controls the outer space around an element?",
+        "options": [
+            "padding",
+            "margin",
+            "spacing",
+            "border"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which JavaScript method is used to join array elements into a string?",
+        "options": [
+            "concat()",
+            "join()",
+            "combine()",
+            "merge()"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Which HTML tag is used to make text bold?",
+        "options": [
+            "<b>",
+            "<strong>",
+            "<bold>",
+            "Both <b> and <strong>"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which CSS property sets the height of a line?",
+        "options": [
+            "line-height",
+            "text-height",
+            "row-height",
+            "height"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which JavaScript function is used to delay execution?",
+        "options": [
+            "setTimeout()",
+            "setInterval()",
+            "delay()",
+            "wait()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which HTML tag is used to define a dropdown list?",
+        "options": [
+            "<select>",
+            "<option>",
+            "<dropdown>",
+            "<list>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which CSS property makes an element hidden but still takes up space?",
+        "options": [
+            "display: none",
+            "opacity: 0",
+            "visibility: hidden",
+            "hidden: true"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Which HTML tag is used to define a form?",
+        "options": [
+            "<form>",
+            "<input>",
+            "<fieldset>",
+            "<dataform>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which JavaScript method is used to convert JSON string into an object?",
+        "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "toObject()",
+            "convertJSON()"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which CSS property is used for shadow effects?",
+        "options": [
+            "box-shadow",
+            "text-shadow",
+            "shadow",
+            "Both box-shadow and text-shadow"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "Which HTML5 tag is used for drawing graphics?",
+        "options": [
+            "<canvas>",
+            "<draw>",
+            "<graphic>",
+            "<svg>"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which JavaScript method is used to execute a function repeatedly at intervals?",
+        "options": [
+            "setInterval()",
+            "setTimeout()",
+            "repeat()",
+            "loop()"
+        ],
+        "correct": 0
+    }
+]
