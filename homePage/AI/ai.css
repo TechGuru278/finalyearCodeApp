@@ -82,6 +82,7 @@ body {
     flex-direction: column;
     gap: 15px;
     padding-bottom: 20px;
+    hight:90vh;
 }
 
 .welcome-message {
@@ -284,5 +285,6 @@ button:active {
         font-size: 0.9rem;
     }
 }
+
 
 
