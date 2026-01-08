@@ -8,7 +8,6 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
     background-attachment: fixed;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 .container {
@@ -57,7 +56,6 @@ body {
 .boxArea {
     margin-top: 10px;
     height: 72vh;
-    color: white;
     padding: 0 15px;
     overflow-y: auto;
     scrollbar-width: thin;
@@ -94,7 +92,6 @@ body {
     margin: 10px 0;
     text-align: center;
     font-size: 1.1rem;
-    color: white;
 }
 
 .message {
@@ -111,14 +108,13 @@ body {
     align-self: flex-end;
     border-radius: 20px 20px 5px 20px;
     margin-left: auto;
-    color: white;
 }
 
 .ai-message {
     background: linear-gradient(135deg, #667eea, #764ba2);
     align-self: flex-start;
     border-radius: 20px 20px 20px 5px;
-    color: white;
+
 }
 
 .ai-message pre {
@@ -284,3 +280,4 @@ button:active {
         font-size: 0.9rem;
     }
 }
+
