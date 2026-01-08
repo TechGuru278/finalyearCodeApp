@@ -7,39 +7,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="shortcut icon" href="../../GeneralImages/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./ai.css">
-    <title>AI</title>
+    <title>AI Chatbot</title>
 </head>
 
 <body>
     <div class="container">
         <center><img src="../../GeneralImages/logo.png" width="100%" height="100%"></center>
     </div>
+    
     <div class="headder">
         <center>
             <h1>🤖 Code AI</h1>
+            <p class="subtitle">Ask me anything about coding!</p>
         </center>
     </div>
 
     <div class="boxArea">
-        <div class="userIpBox">
-        </div>
-        <div class="aiResponce">
+        <div class="chat-container">
+            <div class="welcome-message">
+                <p>👋 Hello! I'm your coding assistant. Ask me anything about programming, web development, algorithms, or any tech-related questions!</p>
+            </div>
+            <div class="userIpBox">
+                <!-- User messages will appear here -->
+            </div>
+            <div class="aiResponce">
+                <!-- AI responses will appear here -->
+            </div>
         </div>
     </div>
 
     <div class="userInputBox">
         <div class="inputBox">
-            <input type="text" name="text" id="uip" placeholder="Enter Question">
-            <button onclick="q()">ASK</button>
+            <input type="text" name="text" id="uip" placeholder="Enter your coding question..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">ASK</button>
+        </div>
+        <div class="typing-indicator" id="typingIndicator">
+            <span>AI is typing</span>
+            <div class="typing-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </div>
+
     <div class="allert">
-        <h4>Get the pro version</h4>
-        <p>contact : admin@gmail.com</p>
+        <h4>✨ Pro Features Available</h4>
+        <p>Contact: admin@gmail.com</p>
     </div>
 
     <script src="ai.js"></script>
-
 </body>
 
 </html>
