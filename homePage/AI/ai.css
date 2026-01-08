@@ -56,6 +56,7 @@ body {
 .boxArea {
     margin-top: 10px;
     height: 72vh;
+    color: black;
     padding: 0 15px;
     overflow-y: auto;
     scrollbar-width: thin;
@@ -84,10 +85,10 @@ body {
 }
 
 .welcome-message {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
+    /* background: rgba(255, 255, 255, 0.1); */
+    /* backdrop-filter: blur(10px); */
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    /* border-radius: 20px; */
     padding: 20px;
     margin: 10px 0;
     text-align: center;
@@ -327,5 +328,6 @@ button:active {
         width: 80px;
     }
 }
+
 
 
