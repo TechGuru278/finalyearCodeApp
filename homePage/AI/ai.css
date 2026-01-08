@@ -269,7 +269,7 @@ button:active {
 
 @media (max-width: 480px) {
     .boxArea {
-        height: 65vh;
+        height: 80vh;
     }
     
     .userInputBox {
@@ -285,6 +285,7 @@ button:active {
         font-size: 0.9rem;
     }
 }
+
 
 
 
