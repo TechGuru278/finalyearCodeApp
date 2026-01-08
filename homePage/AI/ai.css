@@ -56,7 +56,7 @@ body {
 
 .boxArea {
     margin-top: 10px;
-    height: 72vh;
+    height: 90vh;
     padding: 0 15px;
     overflow-y: auto;
     scrollbar-width: thin;
@@ -285,6 +285,7 @@ button:active {
         font-size: 0.9rem;
     }
 }
+
 
 
 
